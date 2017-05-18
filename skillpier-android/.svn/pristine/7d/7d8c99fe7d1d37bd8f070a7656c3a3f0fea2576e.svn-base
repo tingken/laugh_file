@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/space_5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shopping_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/space_20"
+            android:src="@drawable/cart_big" />
+
+        <TextView
+            android:id="@+id/top_tv"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/space_45"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textSize="@dimen/text_size_18" />
+
+        <ImageView
+            android:id="@+id/message_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/space_20"
+            android:src="@drawable/message_2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/qianhuise" />
+
+    <com.quark.PagerSlidingTabStrip.PagerSlidingTabStrip
+        android:id="@+id/order_tabpager"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/qianhuise"
+        app:pstsIndicatorColor="@color/chengse"
+        app:pstsIndicatorHeight="4dp"
+        app:pstsShouldExpand="true"></com.quark.PagerSlidingTabStrip.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_25"
+        android:layout_marginTop="@dimen/space_25"
+        android:background="@drawable/edittext_title"
+        android:gravity="left"
+        android:padding="@dimen/space_10"
+        android:text="" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ok_bt"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/space_30"
+            android:layout_marginLeft="@dimen/space_40"
+            android:layout_marginRight="@dimen/space_40"
+            android:layout_marginTop="@dimen/space_60"
+            android:background="@drawable/button2_style"
+            android:text="@string/confirm"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

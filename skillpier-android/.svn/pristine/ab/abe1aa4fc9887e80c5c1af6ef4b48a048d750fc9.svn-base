@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/mai_hear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/danhuang"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.joooonho.SelectableRoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/head_iv"
+                    android:src="@drawable/example_7"
+                    android:scaleType="centerCrop"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:sriv_left_top_corner_radius="5dip"
+                    app:sriv_right_top_corner_radius="5dip"
+                    app:sriv_left_bottom_corner_radius="5dip"
+                    app:sriv_right_bottom_corner_radius="5dip"
+                    app:sriv_border_width="1dip"
+                    app:sriv_border_color="@color/picborder"
+                    app:sriv_oval="false" />
+
+                <TextView
+                    android:id="@+id/username_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/email_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="35dp"
+                    android:layout_marginTop="10dp"
+                    android:text="" />
+            </LinearLayout>
+
+            <com.quark.PagerSlidingTabStrip.PagerSlidingTabStrip
+                android:id="@+id/homepager_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/qianhuise"
+                app:pstsIndicatorColor="@color/chengse"
+                app:pstsIndicatorHeight="4dp"
+                app:pstsShouldExpand="true"></com.quark.PagerSlidingTabStrip.PagerSlidingTabStrip>
+
+            <com.quark.api.auto.bean.NoScrollViewPager
+                android:id="@+id/home_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.quark.api.auto.bean.NoScrollViewPager>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

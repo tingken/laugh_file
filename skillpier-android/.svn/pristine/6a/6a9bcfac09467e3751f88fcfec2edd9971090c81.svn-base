@@ -1,0 +1,100 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class CertificationsEditActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.CertificationsEditActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689743, "field 'sign'");
+    target.sign = finder.castView(view, 2131689743, "field 'sign'");
+    view = finder.findRequiredView(source, 2131689744, "field 'rightrig'");
+    target.rightrig = finder.castView(view, 2131689744, "field 'rightrig'");
+    view = finder.findRequiredView(source, 2131689512, "field 'right'");
+    target.right = finder.castView(view, 2131689512, "field 'right'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689626, "field 'titleEt'");
+    target.titleEt = finder.castView(view, 2131689626, "field 'titleEt'");
+    view = finder.findRequiredView(source, 2131689627, "field 'nameTv'");
+    target.nameTv = finder.castView(view, 2131689627, "field 'nameTv'");
+    view = finder.findRequiredView(source, 2131689628, "field 'choosetimeTv' and method 'cd'");
+    target.choosetimeTv = finder.castView(view, 2131689628, "field 'choosetimeTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.cd(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689629, "field 'choosetimepic' and method 'cd'");
+    target.choosetimepic = finder.castView(view, 2131689629, "field 'choosetimepic'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.cd(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689630, "field 'unicEt'");
+    target.unicEt = finder.castView(view, 2131689630, "field 'unicEt'");
+    view = finder.findRequiredView(source, 2131689631, "field 'newImageIbt' and method 'cd'");
+    target.newImageIbt = finder.castView(view, 2131689631, "field 'newImageIbt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.cd(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689632, "field 'new_remove_ibt' and method 'cd'");
+    target.new_remove_ibt = finder.castView(view, 2131689632, "field 'new_remove_ibt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.cd(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689633, "field 'addBt' and method 'ck'");
+    target.addBt = finder.castView(view, 2131689633, "field 'addBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ck(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.sign = null;
+    target.rightrig = null;
+    target.right = null;
+    target.head = null;
+    target.titleEt = null;
+    target.nameTv = null;
+    target.choosetimeTv = null;
+    target.choosetimepic = null;
+    target.unicEt = null;
+    target.newImageIbt = null;
+    target.new_remove_ibt = null;
+    target.addBt = null;
+  }
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SwipeRefreshLoadListview</string>
+    <string name="xlistview_header_hint_normal">The drop-down refresh</string>
+    <string name="xlistview_header_hint_ready">Loosen the refresh data</string>
+    <string name="xlistview_header_hint_loading">In the load...</string>
+    <string name="xlistview_header_last_time">The last update time：</string>
+    <string name="xlistview_footer_hint_normal">To view more</string>
+    <string name="xlistview_footer_hint_over">There are no more</string>
+    <!--<string name="xlistview_footer_hint_ready">松开载入更多</string>-->
+    <string name="xlistview_footer_hint_ready">To view more</string>
+</resources>
+
+

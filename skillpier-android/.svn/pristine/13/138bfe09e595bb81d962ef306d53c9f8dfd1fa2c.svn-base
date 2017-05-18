@@ -1,0 +1,1302 @@
+[
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00049.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00049.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00004.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00004.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_logo_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00018.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00018.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_three.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_three.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\clearcar.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\clearcar.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00052.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00052.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\m_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\location.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\location.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_light.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_light.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_close.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_close.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_4.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_4.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00021.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00021.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_light.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\location_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\location_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00035.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00035.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cd_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cd_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dot_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\dot_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00033.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00033.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\account_5.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\account_5.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00047.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00047.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\coach_bg.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\coach_bg.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\off.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\off.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\no.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_one.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_one.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\write.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\write.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cmc_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cmc_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m_4.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\m_4.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00006.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00006.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_replay.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_video_replay.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\paobu.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\paobu.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\room_select.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\room_select.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow_down.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\arrow_down.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\invalidcar.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\invalidcar.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00002.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00002.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\image.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\image.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_yellow_up.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_yellow_up.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_bg.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_seekbar_bg.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eye_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\eye_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_6.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_6.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00008.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00008.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\account_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\account_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00040.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00040.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\upload1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\upload1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cart_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cart_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_nomal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\right_nomal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00050.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00050.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_verified.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_tweet_verified.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00031.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00031.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause_pressed.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_video_pause_pressed.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00037.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00037.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_10.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_10.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_progress_bg.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_seekbar_progress_bg.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\forward.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\forward.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00059.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00059.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__share_email_header.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\2.0.0\\res\\drawable-xhdpi-v4\\tw__share_email_header.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00056.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00056.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\message_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00043.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00043.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\search_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00057.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00057.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00058.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00058.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unconnect.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\unconnect.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\male.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\male.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\remove.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\remove.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\week_choose.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\week_choose.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00013.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00013.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\search_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\coupon_bg.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\coupon_bg.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_two.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_two.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_dark.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_dark.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00028.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00028.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_8.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_8.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_three_active.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_three_active.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_button_send_icon_blue.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_button_send_icon_blue.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\player.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\player.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00014.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00014.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00039.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00039.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_5.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_5.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\account_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\account_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00041.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00041.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00009.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00009.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\week_nomal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\week_nomal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_video_pause.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_right.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_right.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\avatar_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\avatar_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notyet.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\notyet.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_11.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_11.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00038.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00038.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_one_pic_active.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_one_pic_active.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00023.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00023.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_yellow_down.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_yellow_down.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cart_big.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cart_big.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_12.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_12.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00032.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00032.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\clean.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\clean.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\on.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\on.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_close.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\2.0.0\\res\\drawable-xhdpi-v4\\tw__composer_close.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_vine_badge.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_vine_badge.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00042.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00042.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\locationmove.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\locationmove.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\up_carset.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\up_carset.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_4.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_4.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\female.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\female.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_inline_share.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_inline_share.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__action_heart_on_default.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__action_heart_on_default.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\paypal.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\paypal.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\account_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\account_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_button_icon_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_button_icon_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\spotlight_poi.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\spotlight_poi.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00029.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00029.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\forward_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\forward_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00048.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00048.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\time_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\time_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\expired.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\expired.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\m_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_two_pic_active.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_two_pic_active.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\change.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\change.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\category.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\category.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\message_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_replay_pressed.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_video_replay_pressed.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00020.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00020.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00019.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00019.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_choose.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\right_choose.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00005.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00005.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\repley.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\repley.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00051.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00051.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_nomal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\left_nomal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_two_active.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_two_active.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00022.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00022.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00017.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00017.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_blue.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\2.0.0\\res\\drawable-xhdpi-v4\\tw__composer_logo_blue.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_four.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_four.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cart_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cart_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_5.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_5.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00036.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00036.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\welcome.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\welcome.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00003.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00003.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\places_ic_search.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\places_ic_search.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dash.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\dash.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_play_default.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_play_default.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\m_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_one_active.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_one_active.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00046.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00046.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_110.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_110.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\upload.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\upload.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\2.0.0\\res\\drawable-xhdpi-v4\\tw__composer_logo_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_light.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_retweet_light.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\category_bg.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\category_bg.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_7.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_7.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\star_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\star_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_play_pressed.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_play_pressed.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cmc_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cmc_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cm_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cm_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_video_play.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00053.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00053.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\order_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\order_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_13.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_13.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00034.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00034.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shear_bg.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\shear_bg.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cd_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cd_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_choose.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\left_choose.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\room_unselect.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\room_unselect.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\yes.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\yes.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\weixin.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\weixin.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_button_send_icon_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_button_send_icon_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__action_heart_off_default.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__action_heart_off_default.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_wind.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\bg_wind.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bytotal.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\bytotal.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00027.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00027.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\skillopedia\\swiperefreshloadlistview\\unspecified\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_favicon_white.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_favicon_white.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00025.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00025.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\radius_.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\radius_.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\byaccount.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\byaccount.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cart_8.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cart_8.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00044.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00044.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_four_active.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_four_active.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\line.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_default.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_logo_default.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_one_pic_nomal.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_one_pic_nomal.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00000.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00000.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_gif_badge.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_gif_badge.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00011.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00011.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cm_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cm_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cart_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cart_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00007.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00007.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\official.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\official.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_secondary_bg.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_seekbar_secondary_bg.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00001.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00001.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00054.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00054.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play_pressed.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_video_play_pressed.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cd_3.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cd_3.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_dark.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_retweet_dark.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\carset_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\carset_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00016.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00016.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_blue.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__ic_logo_blue.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00055.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00055.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\visa.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\visa.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00010.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00010.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_dark.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cm_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\cm_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dot.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\dot.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_two_pic_nomal.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\menu_two_pic_nomal.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\places_ic_clear.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\places_ic_clear.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\order_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\order_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\star_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\star_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eye_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\eye_1.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_button_icon_blue.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\category_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\category_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\zidown_line.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\zidown_line.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\account_4.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\account_4.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_7.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_7.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00026.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00026.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_6.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\tab_6.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\time_2.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\time_2.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00045.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\2.0.0\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00045.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\example_1.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\app\\src\\main\\res\\drawable-xhdpi\\example_1.png"
+    }
+]

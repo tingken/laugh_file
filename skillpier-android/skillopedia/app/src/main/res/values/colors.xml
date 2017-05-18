@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="beijing">#F3F3F5</color>
+    <color name="qianhuise">#cdcdcd</color>
+    <color name="qianhuise2">#686868</color>
+    <color name="linehuise">#F1F1F1</color>
+    <color name="bghuise">#F5F5F5</color>
+    <color name="red">#fd5a14</color>
+    <color name="light_red">#fead8a</color>
+    <!-- <color name="red">#FF0000</color>-->
+    <color name="huise">#686868</color>
+    <color name="head">#00A79D</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="black_bg">#292929</color>
+    <color name="black">#000000</color>
+    <color name="menu_yellow">#F5EE31</color>
+    <color name="menu_green">#00776B</color>
+    <color name="menu_green_right">#00A79D</color>
+    <color name="menu_lan">#067BFB</color>
+    <color name="danhuang">#F3E7D9</color>
+    <color name="chengse">#F8B348</color>
+    <color name="danhuise">#EFEFF4</color>
+    <color name="unavailable">#e8ded2</color>
+
+    <color name="biankuang">#F3E7D9</color>
+
+    <color name="xuanzhong">#ffb342</color>
+
+    <color name="busy">#fff</color>
+    <color name="leftlist">#fbf8f4</color>
+    <color name="listtext">#ffb342</color>
+    <color name="dandanhuang">#FEF6EA</color>
+    <color name="line_color">#c6c6c9</color>
+    <color name="text">#F75C18</color>
+
+
+
+    <color name="yellow">#FFB342</color>
+
+    <color name="luse">#98DA62</color>
+
+    <color name="danchengse">#EFDECC</color>
+
+    <color name="category_left_bg">#FBF8F4</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="line">#c6c6c9</color>
+    <color name="schedule_busy">#FFF5E9</color>
+    <color name="schedule_check">#EFDECC</color>
+    <color name="zitihuise">#9B9B9B</color>
+    <color name="booking">#DDDDDD</color>
+    <color name="picborder">#FFB342</color>
+
+    <color name="unfocused">#cccccccc</color>
+    <color name="fb_shenhui">#DFDEDA</color>
+
+    <color name="map_cilcle">#86C9FA</color>
+
+    <color name="map_cilcle_wai">#1B9EFB</color>
+
+    <color name="huisebutton">#A8A8A8</color>
+
+    <color name="schedulehui">#E1E1E1</color>
+    <color name="filterbg">#F8F8F8</color>
+
+    <color name="comment">#fbcb84</color>
+    <color name="bugagin">#90e1d5</color>
+
+
+
+
+</resources>

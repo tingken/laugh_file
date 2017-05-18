@@ -1,0 +1,359 @@
+package com.quark.skillopedia.mainview;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.quark.api.auto.bean.BaseInfoRequest;
+import com.quark.api.auto.bean.Category01ListRequest;
+import com.quark.api.auto.bean.Category01ListResponse;
+import com.quark.api.auto.bean.HotRecommandListRequest;
+import com.quark.api.auto.bean.HotRedcommandListNewResponse;
+import com.quark.api.auto.bean.InfoResponse;
+import com.quark.api.auto.bean.ListCategory01;
+import com.quark.api.auto.bean.ListCourse;
+import com.quark.api.auto.bean.UserInfoskill;
+import com.quark.skillopedia.AppContext;
+import com.quark.skillopedia.AppParam;
+import com.quark.skillopedia.R;
+import com.quark.skillopedia.adapter.HottypeNewAdapter;
+import com.quark.skillopedia.api.ApiHttpClient;
+import com.quark.skillopedia.api.ApiResponse;
+import com.quark.skillopedia.api.remote.QuarkApi;
+import com.quark.skillopedia.base.BaseFragment;
+import com.quark.skillopedia.ui.widget.AutoGridViewForScrollView;
+import com.quark.skillopedia.ui.widget.AutoListView;
+import com.quark.skillopedia.ui.widget.AutoScrollView.BorderScrollView;
+import com.quark.skillopedia.ui.widget.SlideHomeShowView;
+import com.quark.skillopedia.uiview.NewLoginActivity;
+import com.quark.skillopedia.uiview.fenlei.CourseDetailActivity;
+import com.quark.skillopedia.uiview.fenlei.SearchActivity;
+import com.quark.skillopedia.uiview.fenlei.SecondeCategoryActivity;
+import com.quark.skillopedia.uiview.zhanghu.MessageActivity;
+import com.quark.skillopedia.util.Utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import butterknife.OnClick;
+import cz.msebera.android.httpclient.Header;
+
+/**
+ * 主界面 home页面
+ * pan
+ * 2016/8/22 0022 下午 3:57
+ */
+@SuppressLint("ResourceAsColor")
+public class FragmentOne extends BaseFragment implements BorderScrollView.OnBorderListener {
+    @InjectView(R.id.slideshowView)
+    SlideHomeShowView slideshowView;
+    @InjectView(R.id.typeview)
+    LinearLayout typeview;
+    @InjectView(R.id.gridView)
+    AutoGridViewForScrollView gridView;
+    @InjectView(R.id.type1_pic)
+    ImageView type1Pic;
+    @InjectView(R.id.type1_name)
+    TextView type1Name;
+    @InjectView(R.id.type1_des)
+    TextView type1Des;
+    @InjectView(R.id.type2_name)
+    TextView type2Name;
+    @InjectView(R.id.type2_des)
+    TextView type2Des;
+    @InjectView(R.id.type2_pic)
+    ImageView type2Pic;
+    @InjectView(R.id.gridloading)
+    ProgressBar gridloading;
+    @InjectView(R.id.loadFull)
+    TextView loadFull;
+    @InjectView(R.id.number) //wei du
+    TextView number;
+
+    View fourViewt;
+    List<ListCategory01> category01s;
+    HottypeNewAdapter htadapter;
+    ArrayList<ListCourse> datas = new ArrayList<>();
+    int typebighight, typeminhight;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        fourViewt = inflater.inflate(R.layout.fragment_one, container, false);
+        ButterKnife.inject(this, fourViewt);
+
+        BorderScrollView scrol = (BorderScrollView) fourViewt.findViewById(R.id.scrol);
+        scrol.setOnBorderListener(this);
+
+        int sw = new AppParam().getScreenWidth(getActivity());
+        int pich = (int) ((sw * 470) / 750.0);
+        ViewGroup.LayoutParams params = slideshowView.getLayoutParams();
+        params.height = pich;
+        params.width = sw;
+        slideshowView.setLayoutParams(params);
+
+        int typehight = ((sw - Utils.dip2px(getActivity(), 40)) / 3);
+        ViewGroup.LayoutParams params2 = typeview.getLayoutParams();
+        params2.height = typehight;
+        typeview.setLayoutParams(params2);
+
+        typebighight = ((sw - Utils.dip2px(getActivity(), 48)) / 3);
+        typeminhight = ((typebighight - Utils.dip2px(getActivity(), 2)) / 2);
+
+        htadapter = new HottypeNewAdapter(getActivity(), datas, typeminhight, typebighight);
+        gridView.setAdapter(htadapter);
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent in = new Intent(getActivity(), CourseDetailActivity.class);
+                in.putExtra("course_id", datas.get(position).getCourse_id()+"");
+                startActivity(in);
+            }
+        });
+        category01ListRequest();
+        hotRecommandListRequest();
+        if (new AppParam().isLogin(getActivity())){
+            baseInfoRequest();
+        }
+        return fourViewt;
+    }
+
+    public void category01ListRequest() {
+        Category01ListRequest rq = new Category01ListRequest();
+
+        showWait(true);
+        QuarkApi.HttpRequest(rq, mHandlercategory01);
+    }
+
+    private final AsyncHttpResponseHandler mHandlercategory01 = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int arg0, Header[] arg1, byte[] arg2) {
+            Object kd = ApiResponse.get(arg2, getActivity(), Category01ListResponse.class);
+            if (kd != null) {
+                Category01ListResponse info = (Category01ListResponse) kd;
+                category01s = info.getCategory01ListResult().getCategory01s();
+                initTypes();
+            }
+            showWait(false);
+        }
+
+        @Override
+        public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
+            AppContext.showToast("Network error" + arg0);
+            showWait(false);
+        }
+    };
+
+    public void initTypes() {
+        if (category01s != null && category01s.size() > 0) {
+            ApiHttpClient.loadImage(category01s.get(0).getImage_01(), type1Pic, R.drawable.example_2);
+            type1Name.setText(category01s.get(0).getCategory_01_name());
+//            type1Name.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
+            type1Des.setText(category01s.get(0).getCategory_describe());
+        }
+        if (category01s != null && category01s.size() > 1) {
+            ApiHttpClient.loadImage(category01s.get(1).getImage_01(), type2Pic, R.drawable.example_2);
+            type2Name.setText(category01s.get(1).getCategory_01_name());
+//            type2Name.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG); //下划线
+            type2Des.setText(category01s.get(1).getCategory_describe());
+        }
+    }
+
+    @OnClick({R.id.type_1, R.id.type_1_1, R.id.type_2_2, R.id.type_2})
+    public void tocatagory(View b) {
+        switch (b.getId()) {
+            case R.id.type_1:
+            case R.id.type_1_1:
+                if (category01s != null && category01s.size() > 0) {
+                    Intent intent = new Intent();
+                    intent.setClass(getActivity(), SecondeCategoryActivity.class);
+                    intent.putExtra("category_id", category01s.get(0).getCategory_01_id() + "");
+                    intent.putExtra("title", category01s.get(0).getCategory_01_name() + "");
+                    startActivity(intent);
+                }
+                break;
+            case R.id.type_2:
+            case R.id.type_2_2:
+                if (category01s != null && category01s.size() > 1) {
+                    Intent intent = new Intent();
+                    intent.setClass(getActivity(), SecondeCategoryActivity.class);
+                    intent.putExtra("category_id", category01s.get(1).getCategory_01_id() + "");
+                    intent.putExtra("title", category01s.get(1).getCategory_01_name() + "");
+                    startActivity(intent);
+                }
+                break;
+        }
+    }
+
+    public void hotRecommandListRequest() {
+        HotRecommandListRequest rq = new HotRecommandListRequest();
+        rq.setPage_size("3");
+        rq.setPn(pn+"");
+        showWait(true);
+        QuarkApi.HttpRequest(rq, mHandlerhot);
+    }
+
+    private final AsyncHttpResponseHandler mHandlerhot = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int arg0, Header[] arg1, byte[] arg2) {
+            Object kd = ApiResponse.get(arg2, getActivity(), HotRedcommandListNewResponse.class);
+            if (kd != null) {
+                HotRedcommandListNewResponse info = (HotRedcommandListNewResponse) kd;
+                dealdatas(info);
+            }
+            showWait(false);
+        }
+
+        @Override
+        public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
+            AppContext.showToast("Network error" + arg0);
+            showWait(false);
+        }
+    };
+
+    public void dealdatas(HotRedcommandListNewResponse info) {
+//        if (type == AutoListView.REFRESH) {
+//            datas.clear();
+//        }
+        gridloading.setVisibility(View.GONE);
+        List<ListCourse> tproducts = info.getHotRedcommandListNewResult().getHotRedcommandListNew().getList();
+        Message msg = handler.obtainMessage();
+        msg.what = type;
+
+        if (tproducts != null) {
+            if (tproducts.size() == 3) {
+                loadEnable = true;
+            }else{
+                loadFull.setVisibility(View.VISIBLE);
+            }
+            msg.arg1 = tproducts.size();
+            datas.addAll(tproducts);
+        } else {
+            msg.arg1 = 0;
+        }
+        handler.sendMessage(msg);
+    }
+
+    public Handler handler = new Handler() {
+        public void handleMessage(Message msg) {
+            int rs = msg.arg1;
+            switch (msg.what) {
+//                case AutoListView.REFRESH:
+//                    lstv.onRefreshComplete();
+//                    break;
+//                case AutoListView.LOAD:
+//                    lstv.onLoadComplete();
+//                    break;
+            }
+//            lstv.setResultSize(rs);
+            htadapter.notifyDataSetChanged();
+        }
+
+        ;
+    };
+
+    public int pn = 1;
+    public int type = AutoListView.REFRESH;
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.reset(this);
+    }
+
+    @OnClick({R.id.msg, R.id.tosearch})
+    public void msgsearch(View v) {
+        switch (v.getId()) {
+            case R.id.msg:
+                if (new AppParam().isLogin(getActivity())) {
+                    Intent in = new Intent(getActivity(), MessageActivity.class);
+                    in.putExtra("agent_level", "");
+                    startActivity(in);
+                    number.setVisibility(View.GONE);
+                } else {
+                    startActivity(new Intent().setClass(getActivity(), NewLoginActivity.class));
+                }
+                break;
+            case R.id.tosearch:
+                Intent intent = new Intent(getActivity(), SearchActivity.class);
+                intent.putExtra("from", "index");
+                startActivity(intent);
+                break;
+        }
+    }
+
+    boolean loadEnable = false;
+    @Override
+    public void onBottom() {
+        // TODO Auto-generated method stub
+//        Log.e("error", "到低了····");
+        if (loadEnable) {
+            loadEnable = false;
+            pn++;
+            gridloading.setVisibility(View.VISIBLE);
+            hotRecommandListRequest();
+        }
+    }
+
+    @Override
+    public void onTop() {
+        // TODO Auto-generated method stub
+//        Log.e("error", "到头了····");
+    }
+
+    public void baseInfoRequest() {
+        BaseInfoRequest rq = new BaseInfoRequest();
+        QuarkApi.HttpRequest(rq, mHandlermty);
+    }
+
+    private final AsyncHttpResponseHandler mHandlermty = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int arg0, Header[] arg1, byte[] arg2) {
+            Object kd = ApiResponse.get(arg2, getActivity(), InfoResponse.class);
+            if (kd != null) {
+                if (getActivity()!=null){
+                    InfoResponse info = (InfoResponse) kd;
+                    UserInfoskill userinfo = info.getBaseInfoResult().getUserInfo();
+                    if (userinfo.getRead_number()>0){
+                        number.setText(userinfo.getRead_number()+"");
+                        number.setVisibility(View.VISIBLE);
+                    }else{
+                        number.setVisibility(View.GONE);
+                    }
+                }
+            }
+        }
+
+        @Override
+        public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
+            AppContext.showToast("Network error" + arg0);
+            showWait(false);
+        }
+    };
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (new AppParam().isLogin(getActivity())) {
+            baseInfoRequest();
+        }
+    }
+
+}
+
+
+
+
+

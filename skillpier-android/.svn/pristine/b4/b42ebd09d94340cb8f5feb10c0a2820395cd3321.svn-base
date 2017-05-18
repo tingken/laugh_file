@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/playout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/bord_fillorder"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Package"
+            android:background="#FFE4BB"
+            android:textColor="@color/huise"
+            android:textSize="@dimen/fontsize_18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F0F0"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="3dp"
+                android:text="Buy"
+                android:textColor="@color/huise"
+                android:textSize="@dimen/fontsize_18sp" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="3dp"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:text="course get"
+                android:textColor="@color/huise"
+                android:textSize="@dimen/fontsize_16sp" />
+
+            <TextView
+                android:id="@+id/discount_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_19sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="3dp"
+                android:text="off"
+                android:textColor="@color/huise"
+                android:textSize="@dimen/fontsize_18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

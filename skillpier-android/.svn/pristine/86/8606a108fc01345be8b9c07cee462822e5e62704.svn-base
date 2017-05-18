@@ -1,0 +1,51 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class ScheduleConfirmTimeActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.ScheduleConfirmTimeActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689743, "field 'sign'");
+    target.sign = finder.castView(view, 2131689743, "field 'sign'");
+    view = finder.findRequiredView(source, 2131689744, "field 'rightrig'");
+    target.rightrig = finder.castView(view, 2131689744, "field 'rightrig'");
+    view = finder.findRequiredView(source, 2131689512, "field 'right'");
+    target.right = finder.castView(view, 2131689512, "field 'right'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689638, "field 'radioGroup'");
+    target.radioGroup = finder.castView(view, 2131689638, "field 'radioGroup'");
+    view = finder.findRequiredView(source, 2131689637, "field 'horizontalScrollView'");
+    target.horizontalScrollView = finder.castView(view, 2131689637, "field 'horizontalScrollView'");
+    view = finder.findRequiredView(source, 2131689640, "field 'mViewPager'");
+    target.mViewPager = finder.castView(view, 2131689640, "field 'mViewPager'");
+    view = finder.findRequiredView(source, 2131689636, "field 'dataview'");
+    target.dataview = finder.castView(view, 2131689636, "field 'dataview'");
+    view = finder.findRequiredView(source, 2131689639, "field 'mImageView'");
+    target.mImageView = finder.castView(view, 2131689639, "field 'mImageView'");
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.sign = null;
+    target.rightrig = null;
+    target.right = null;
+    target.head = null;
+    target.radioGroup = null;
+    target.horizontalScrollView = null;
+    target.mViewPager = null;
+    target.dataview = null;
+    target.mImageView = null;
+  }
+}

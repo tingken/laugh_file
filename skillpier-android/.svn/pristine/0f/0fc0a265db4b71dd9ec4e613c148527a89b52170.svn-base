@@ -1,0 +1,42 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.adapter;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class OrdersAdapter$ViewHolder$$ViewInjector<T extends com.quark.skillopedia.adapter.OrdersAdapter.ViewHolder> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689899, "field 'iamgeIv'");
+    target.iamgeIv = finder.castView(view, 2131689899, "field 'iamgeIv'");
+    view = finder.findRequiredView(source, 2131689900, "field 'coursetitle'");
+    target.coursetitle = finder.castView(view, 2131689900, "field 'coursetitle'");
+    view = finder.findRequiredView(source, 2131689864, "field 'name'");
+    target.name = finder.castView(view, 2131689864, "field 'name'");
+    view = finder.findRequiredView(source, 2131689623, "field 'number'");
+    target.number = finder.castView(view, 2131689623, "field 'number'");
+    view = finder.findRequiredView(source, 2131689924, "field 'ratingBar'");
+    target.ratingBar = finder.castView(view, 2131689924, "field 'ratingBar'");
+    view = finder.findRequiredView(source, 2131689972, "field 'gradeTv'");
+    target.gradeTv = finder.castView(view, 2131689972, "field 'gradeTv'");
+    view = finder.findRequiredView(source, 2131689973, "field 'milesTv'");
+    target.milesTv = finder.castView(view, 2131689973, "field 'milesTv'");
+    view = finder.findRequiredView(source, 2131689974, "field 'footballTv'");
+    target.footballTv = finder.castView(view, 2131689974, "field 'footballTv'");
+    view = finder.findRequiredView(source, 2131689652, "field 'moneyTv'");
+    target.moneyTv = finder.castView(view, 2131689652, "field 'moneyTv'");
+  }
+
+  @Override public void reset(T target) {
+    target.iamgeIv = null;
+    target.coursetitle = null;
+    target.name = null;
+    target.number = null;
+    target.ratingBar = null;
+    target.gradeTv = null;
+    target.milesTv = null;
+    target.footballTv = null;
+    target.moneyTv = null;
+  }
+}

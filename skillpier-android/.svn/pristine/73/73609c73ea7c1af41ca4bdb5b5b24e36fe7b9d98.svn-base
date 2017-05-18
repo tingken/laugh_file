@@ -1,0 +1,99 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.orders;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class OrdermanagenentActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.orders.OrdermanagenentActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689743, "field 'sign'");
+    target.sign = finder.castView(view, 2131689743, "field 'sign'");
+    view = finder.findRequiredView(source, 2131689744, "field 'rightrig'");
+    target.rightrig = finder.castView(view, 2131689744, "field 'rightrig'");
+    view = finder.findRequiredView(source, 2131689512, "field 'right'");
+    target.right = finder.castView(view, 2131689512, "field 'right'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689753, "field 'oneText'");
+    target.oneText = finder.castView(view, 2131689753, "field 'oneText'");
+    view = finder.findRequiredView(source, 2131689836, "field 'oneView'");
+    target.oneView = finder.castView(view, 2131689836, "field 'oneView'");
+    view = finder.findRequiredView(source, 2131689752, "field 'oneImage'");
+    target.oneImage = view;
+    view = finder.findRequiredView(source, 2131689835, "field 'oneLy' and method 'onClick'");
+    target.oneLy = finder.castView(view, 2131689835, "field 'oneLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689756, "field 'twoText'");
+    target.twoText = finder.castView(view, 2131689756, "field 'twoText'");
+    view = finder.findRequiredView(source, 2131689838, "field 'twoView'");
+    target.twoView = finder.castView(view, 2131689838, "field 'twoView'");
+    view = finder.findRequiredView(source, 2131689755, "field 'twoImage'");
+    target.twoImage = view;
+    view = finder.findRequiredView(source, 2131689837, "field 'twoLy' and method 'onClick'");
+    target.twoLy = finder.castView(view, 2131689837, "field 'twoLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689759, "field 'threeText'");
+    target.threeText = finder.castView(view, 2131689759, "field 'threeText'");
+    view = finder.findRequiredView(source, 2131689840, "field 'threeView'");
+    target.threeView = finder.castView(view, 2131689840, "field 'threeView'");
+    view = finder.findRequiredView(source, 2131689758, "field 'threeImage'");
+    target.threeImage = view;
+    view = finder.findRequiredView(source, 2131689839, "field 'threeLy' and method 'onClick'");
+    target.threeLy = finder.castView(view, 2131689839, "field 'threeLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689834, "field 'menusd'");
+    target.menusd = finder.castView(view, 2131689834, "field 'menusd'");
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.sign = null;
+    target.rightrig = null;
+    target.right = null;
+    target.head = null;
+    target.oneText = null;
+    target.oneView = null;
+    target.oneImage = null;
+    target.oneLy = null;
+    target.twoText = null;
+    target.twoView = null;
+    target.twoImage = null;
+    target.twoLy = null;
+    target.threeText = null;
+    target.threeView = null;
+    target.threeImage = null;
+    target.threeLy = null;
+    target.menusd = null;
+  }
+}

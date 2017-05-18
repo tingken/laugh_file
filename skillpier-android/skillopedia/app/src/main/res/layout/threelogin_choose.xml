@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beijing"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/main_header" />
+
+    <com.quark.skillopedia.ui.widget.CircularImage
+        android:id="@+id/pic"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/example_7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="亲爱的用户："
+            android:textColor="@color/huise"
+            android:textSize="@dimen/fontsize_14sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/fontsize_14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="20dp"
+        android:text="为了给您更好的服务，请关联一个skillopedia账号"
+        android:textSize="@dimen/fontsize_14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="还没有skillopedia账号？"
+        android:textColor="@color/huise"
+        android:textSize="@dimen/fontsize_13sp" />
+
+    <TextView
+        android:id="@+id/toregist"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_red3"
+        android:gravity="center"
+        android:text="快速注册"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize_15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp"
+        android:text="已有skillopedia账号!"
+        android:textColor="@color/huise"
+        android:textSize="@dimen/fontsize_13sp" />
+
+    <TextView
+        android:id="@+id/tobind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bord_while_huise"
+        android:gravity="center"
+        android:text="立即关联"
+        android:textColor="@color/huise"
+        android:textSize="@dimen/fontsize_15sp" />
+
+</LinearLayout>

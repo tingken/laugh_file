@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/qianhuise" />
+
+    <LinearLayout
+        android:id="@+id/menusd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/one_ly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/one_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/one_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center"
+                    android:text="Paid Orders"
+                    android:textColor="@color/chengse"
+                    android:textSize="@dimen/fontsize_12sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/one_image"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/chengse" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/two_ly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/two_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/two_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center"
+
+                    android:text="Completed Orders"
+                    android:textColor="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_12sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/two_image"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/chengse"
+                android:visibility="gone" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three_ly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/three_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/three_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center"
+                    android:text="Refunded/Canceled Orders"
+                    android:textColor="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_12sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/three_image"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/chengse"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/qianhuise"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class ScheduleActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.ScheduleActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689743, "field 'sign'");
+    target.sign = finder.castView(view, 2131689743, "field 'sign'");
+    view = finder.findRequiredView(source, 2131689744, "field 'rightrig'");
+    target.rightrig = finder.castView(view, 2131689744, "field 'rightrig'");
+    view = finder.findRequiredView(source, 2131689512, "field 'right'");
+    target.right = finder.castView(view, 2131689512, "field 'right'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689621, "field 'time'");
+    target.time = finder.castView(view, 2131689621, "field 'time'");
+    view = finder.findRequiredView(source, 2131689620, "field 'choosetimeview' and method 'ss'");
+    target.choosetimeview = finder.castView(view, 2131689620, "field 'choosetimeview'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ss(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689622, "field 'gridview'");
+    target.gridview = finder.castView(view, 2131689622, "field 'gridview'");
+    view = finder.findRequiredView(source, 2131689865, "field 'courseName'");
+    target.courseName = finder.castView(view, 2131689865, "field 'courseName'");
+    view = finder.findRequiredView(source, 2131689866, "field 'courseTime'");
+    target.courseTime = finder.castView(view, 2131689866, "field 'courseTime'");
+    view = finder.findRequiredView(source, 2131689867, "field 'courseAddress'");
+    target.courseAddress = finder.castView(view, 2131689867, "field 'courseAddress'");
+    view = finder.findRequiredView(source, 2131689868, "field 'saveBt' and method 'ss'");
+    target.saveBt = finder.castView(view, 2131689868, "field 'saveBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ss(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689869, "field 'publishBt' and method 'ss'");
+    target.publishBt = finder.castView(view, 2131689869, "field 'publishBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ss(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689870, "field 'alldaybusy' and method 'ss'");
+    target.alldaybusy = finder.castView(view, 2131689870, "field 'alldaybusy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ss(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689871, "field 'stopcourse' and method 'ss'");
+    target.stopcourse = finder.castView(view, 2131689871, "field 'stopcourse'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ss(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.sign = null;
+    target.rightrig = null;
+    target.right = null;
+    target.head = null;
+    target.time = null;
+    target.choosetimeview = null;
+    target.gridview = null;
+    target.courseName = null;
+    target.courseTime = null;
+    target.courseAddress = null;
+    target.saveBt = null;
+    target.publishBt = null;
+    target.alldaybusy = null;
+    target.stopcourse = null;
+  }
+}

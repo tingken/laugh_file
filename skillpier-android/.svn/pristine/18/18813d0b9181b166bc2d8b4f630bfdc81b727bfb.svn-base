@@ -1,0 +1,249 @@
+package com.quark.skillopedia.mainview;
+
+import android.annotation.SuppressLint;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.jauker.widget.BadgeView;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.quark.PagerSlidingTabStrip.PagerSlidingTabStrip;
+import com.quark.api.auto.bean.CardNumRequest;
+import com.quark.api.auto.bean.CardNumResponse;
+import com.quark.skillopedia.AppContext;
+import com.quark.skillopedia.AppParam;
+import com.quark.skillopedia.R;
+import com.quark.skillopedia.api.ApiResponse;
+import com.quark.skillopedia.api.remote.QuarkApi;
+import com.quark.skillopedia.base.BaseFragment;
+import com.quark.skillopedia.uiview.ShoppingCartActivity;
+import com.quark.skillopedia.uiview.orders.OrdersAllFragment;
+import com.quark.skillopedia.uiview.orders.OrdersCompanyFragment;
+import com.quark.skillopedia.uiview.orders.OrdersPaidFragment;
+import com.quark.skillopedia.uiview.orders.OrdersWaitPayFragment;
+import com.quark.skillopedia.uiview.zhanghu.MessageActivity;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import butterknife.OnClick;
+import cz.msebera.android.httpclient.Header;
+
+/**
+ * 主界面 order页面
+ *
+ * @author pan
+ * @time 2016/8/22 0022 下午 3:58
+ */
+@SuppressLint("ResourceAsColor")
+public class FragmentThree extends BaseFragment {
+    View threeViewt;
+
+    @InjectView(R.id.top_tv)
+    TextView topTv;
+    @InjectView(R.id.order_tabpager)
+    PagerSlidingTabStrip orderTabpager;
+    @InjectView(R.id.viewpager)
+    ViewPager viewpager;
+    @InjectView(R.id.cart_ly)
+    LinearLayout cartLy;
+    BadgeView bv;
+
+    public final int NUM_PAGES = 4;
+    Fragment fragment_all, fragment_nopay, fragment_paid, fragment_complete;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        threeViewt = inflater.inflate(R.layout.fragment_three, container, false);
+        ButterKnife.inject(this, threeViewt);
+
+        viewpager.setOffscreenPageLimit(3);//viewpager缓存
+        initViewPage();
+        topTv.setText("Order");
+
+        registerBoradcastReceiverJP();
+
+        if (new AppParam().isLogin(getActivity())) {
+            bv = new BadgeView(getActivity());
+            bv.setTargetView(cartLy);
+            bv.setBadgeGravity(Gravity.TOP | Gravity.RIGHT);
+            bv.setTypeface(Typeface.create(Typeface.SANS_SERIF, Typeface.ITALIC));
+            bv.setTextSize(8);
+            bv.setShadowLayer(2, -1, -1, Color.WHITE);
+            cardNumRequest();
+
+        }
+
+        return threeViewt;
+    }
+
+    public void initViewPage() {
+        viewpager.setAdapter(new PagerAdapter(getChildFragmentManager()));
+        orderTabpager.setViewPager(viewpager);
+    }
+
+    private class PagerAdapter extends FragmentPagerAdapter {
+
+        private final String[] TITLES = getResources().getStringArray(R.array.order_pager_name);
+
+        private PagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return TITLES[position];
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            if (position == 0) {
+                fragment_all = new OrdersAllFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("orders_type", "1");
+                fragment_all.setArguments(bundle);
+
+                return fragment_all;
+            } else if (position == 1) {
+                fragment_nopay = new OrdersWaitPayFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("orders_type", "2");
+                fragment_nopay.setArguments(bundle);
+
+                return fragment_nopay;
+            } else if (position == 2) {
+                fragment_paid = new OrdersPaidFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("orders_type", "3");
+                fragment_paid.setArguments(bundle);
+
+                return fragment_paid;
+            } else {
+                fragment_complete = new OrdersCompanyFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("orders_type", "4");
+                fragment_complete.setArguments(bundle);
+
+                return fragment_complete;
+            }
+        }
+
+        @Override
+        public int getCount() {
+            return NUM_PAGES;
+        }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.reset(this);
+    }
+
+    @OnClick({R.id.shopping_iv, R.id.message_iv})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.shopping_iv:
+                Intent in = new Intent(getActivity(), ShoppingCartActivity.class);
+                startActivity(in);
+                break;
+            case R.id.message_iv:
+                Intent intent = new Intent(getActivity(), MessageActivity.class);
+                startActivity(intent);
+                break;
+        }
+    }
+
+    private ReceiveBroadCast broadCastFragmentThree;
+
+    public void registerBoradcastReceiverJP() {
+        broadCastFragmentThree = new ReceiveBroadCast();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction("fragmentThree"); // 只有持有相同的action的接受者才能接收此广播
+        getActivity().registerReceiver(broadCastFragmentThree, filter);
+    }
+
+    public class ReceiveBroadCast extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent data) {
+            String opertion = data.getStringExtra("option");
+            if (opertion.equals("refresh")) {
+                initViewPage();
+                cardNumRequest();
+            } else if (opertion.equals("refreshCar")) {
+                cardNumRequest();
+            }
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        try {
+            if (broadCastFragmentThree != null) {
+                getActivity().unregisterReceiver(broadCastFragmentThree); // 注销广播接收器
+            }
+        } catch (Exception e) {
+            Log.e("error", "broadCastOrders_waitpay 销毁出错");
+        }
+        super.onDestroy();
+    }
+
+    public void cardNumRequest() {
+        CardNumRequest rq = new CardNumRequest();
+        QuarkApi.HttpRequest(rq, mHandlercarnumber);
+    }
+
+    private final AsyncHttpResponseHandler mHandlercarnumber = new AsyncHttpResponseHandler() {
+        @Override
+        public void onSuccess(int arg0, Header[] arg1, byte[] arg2) {
+            Object kd = ApiResponse.get(arg2, getActivity(), CardNumResponse.class);
+            if (kd != null) {
+                CardNumResponse info = (CardNumResponse) kd;
+                //购物车小红点
+                try {
+                    int coutn = Integer.valueOf(info.getTotal_card_number());
+                    bv.setBadgeCount(coutn);
+//                    if (coutn==0){
+//                        bv.setVisibility(View.INVISIBLE);
+//                    }else{
+//                        bv.setVisibility(View.VISIBLE);
+//                    }
+                } catch (Exception e) {
+                    Log.e("eroor", "int 转换error");
+                }
+            }
+            showWait(false);
+        }
+
+        @Override
+        public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
+            AppContext.showToast("Network error" + arg0);
+            showWait(false);
+        }
+
+        @Override
+        public void onFinish() {
+            super.onFinish();
+            showWait(false);
+        }
+    };
+}
+
+
+
+
+

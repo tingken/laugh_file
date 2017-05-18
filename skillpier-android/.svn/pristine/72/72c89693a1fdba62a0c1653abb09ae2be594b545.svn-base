@@ -1,0 +1,383 @@
+-injars 'D:\ASWorkspace\skillopedia\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\ASWorkspace\skillopedia\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\SDK\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration 'D:\ASWorkspace\skillopedia\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.quark.skillopedia.AppContext {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.facebook.FacebookContentProvider {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.AppStart {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.mainview.MainActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.ui.ShearActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.ui.WebInfoActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.NewLoginActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.FreesignActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.ForgotActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.zhuye.PersonHomeActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.MessageActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.FavoritesActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.youhui.CouponActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.youhui.CoupondetailsActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jingli.MystepsActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jingli.MyStepsDetailActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jingli.StepswritingActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.AuthenActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.SkillopediaActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.NoSkillopediaActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.NewcourseActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.SettingActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.MycourseActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.orders.OrdermanagenentActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.ScheduleActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.DetailsorderActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.CertificationsActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.zhuye.EditActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.DiscountActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.SelectmapActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.CourseListActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.CourseDetailActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.SecondeCategoryActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.dingdan.ChooseCouponActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.dingdan.OrderCommentActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.dingdan.PaymentActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.dingdan.RefundApplyActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.dingdan.FillOrderActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.ShoppingCartActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.NewcourseTwoActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.NewcourseThreeActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.CertificationsEditActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.dialogActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.ScheduleShowActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.ScheduleBookingActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.Googlemap.SiteActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.Googlemap.ShowPositionActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.zhuye.RenameActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.ScheduleConfirmTimeActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.ScheduleOrderActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.zhanghu.jiaolian.OrderMgDetailsActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.fenlei.SearchActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.ThreeLoginOneActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.ThreeLoginBindActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.ui.paypalPay.SampleActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.youtubeVideos.PlayerViewDemoActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.youtubeVideos.FullscreenDemoActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.AppYidaoActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.AdActivity {
+    <init>();
+}
+
+-keep class com.quark.skillopedia.uiview.youtubeVideos.VideoListDemoActivity {
+    <init>();
+}
+
+-keep class com.alipay.sdk.app.H5PayActivity {
+    <init>();
+}
+
+-keep class cn.jpush.android.ui.PopWinActivity {
+    <init>();
+}
+
+-keep class cn.jpush.android.ui.PushActivity {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.DownloadService {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.PushService {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.DaemonService {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.PushReceiver {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.AlarmReceiver {
+    <init>();
+}
+
+-keep class com.quark.example.MyReceiver {
+    <init>();
+}
+
+-keep class com.facebook.CustomTabActivity {
+    <init>();
+}
+
+-keep class com.facebook.CustomTabMainActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentMethodActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PaymentConfirmActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.LoginActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalFuturePaymentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.FuturePaymentConsentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.FuturePaymentInfoActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalProfileSharingActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.ProfileSharingConsentActivity {
+    <init>();
+}
+
+-keep class com.paypal.android.sdk.payments.PayPalService {
+    <init>();
+}
+
+-keep class io.card.payment.CardIOActivity {
+    <init>();
+}
+
+-keep class io.card.payment.DataEntryActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetcomposer.ComposerActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetcomposer.TweetUploadService {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.core.identity.OAuthActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.core.identity.ShareEmailActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetui.PlayerActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetui.GalleryActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\layout-land\\player_controls_demo.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\src\\main\\res\\layout-land\\player_controls_demo.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\layout-land\\playerview_demo.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\src\\main\\res\\layout-land\\playerview_demo.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragments_demo.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\src\\main\\res\\layout-land\\fragments_demo.xml"
+    }
+]

@@ -1,0 +1,32 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.zhuye;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class EditActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.zhuye.EditActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689717, "field 'editContent'");
+    target.editContent = finder.castView(view, 2131689717, "field 'editContent'");
+    view = finder.findRequiredView(source, 2131689718, "field 'okBt' and method 'onClick'");
+    target.okBt = finder.castView(view, 2131689718, "field 'okBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+  }
+
+  @Override public void reset(T target) {
+    target.editContent = null;
+    target.okBt = null;
+    target.left = null;
+  }
+}

@@ -1,0 +1,47 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class NewcourseThreeActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.NewcourseThreeActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689786, "field 'checkall' and method 'checkall'");
+    target.checkall = finder.castView(view, 2131689786, "field 'checkall'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.checkall(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689622, "field 'gridview'");
+    target.gridview = finder.castView(view, 2131689622, "field 'gridview'");
+    view = finder.findRequiredView(source, 2131689785, "field 'time_l'");
+    target.time_l = finder.castView(view, 2131689785, "field 'time_l'");
+    view = finder.findRequiredView(source, 2131689642, "method 'cn'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.cn(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.checkall = null;
+    target.gridview = null;
+    target.time_l = null;
+  }
+}

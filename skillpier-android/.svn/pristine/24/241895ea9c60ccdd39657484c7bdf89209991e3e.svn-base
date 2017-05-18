@@ -1,0 +1,48 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.mainview;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class FragmentTwo$$ViewInjector<T extends com.quark.skillopedia.mainview.FragmentTwo> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689996, "field 'fragmentTwo'");
+    target.fragmentTwo = finder.castView(view, 2131689996, "field 'fragmentTwo'");
+    view = finder.findRequiredView(source, 2131689999, "field 'kecheng'");
+    target.kecheng = finder.castView(view, 2131689999, "field 'kecheng'");
+    view = finder.findRequiredView(source, 2131690000, "field 'fragment_container'");
+    target.fragment_container = finder.castView(view, 2131690000, "field 'fragment_container'");
+    view = finder.findRequiredView(source, 2131689904, "field 'clist'");
+    target.clist = finder.castView(view, 2131689904, "field 'clist'");
+    view = finder.findRequiredView(source, 2131689634, "field 'nodata'");
+    target.nodata = finder.castView(view, 2131689634, "field 'nodata'");
+    view = finder.findRequiredView(source, 2131689998, "method 'msgsearch'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.msgsearch(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689997, "method 'msgsearch'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.msgsearch(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.fragmentTwo = null;
+    target.kecheng = null;
+    target.fragment_container = null;
+    target.clist = null;
+    target.nodata = null;
+  }
+}

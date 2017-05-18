@@ -1,0 +1,107 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class NewLoginActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.NewLoginActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left' and method 'onClick'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689740, "field 'emailEt'");
+    target.emailEt = finder.castView(view, 2131689740, "field 'emailEt'");
+    view = finder.findRequiredView(source, 2131689823, "field 'passwordEt'");
+    target.passwordEt = finder.castView(view, 2131689823, "field 'passwordEt'");
+    view = finder.findRequiredView(source, 2131689824, "field 'loginBt' and method 'onClick'");
+    target.loginBt = finder.castView(view, 2131689824, "field 'loginBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689827, "field 'dsfloginTv' and method 'onClick'");
+    target.dsfloginTv = finder.castView(view, 2131689827, "field 'dsfloginTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689825, "field 'facebookLy' and method 'onClick'");
+    target.facebookLy = finder.castView(view, 2131689825, "field 'facebookLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689826, "field 'twiiterLy' and method 'onClick'");
+    target.twiiterLy = finder.castView(view, 2131689826, "field 'twiiterLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689828, "field 'fressTv' and method 'onClick'");
+    target.fressTv = finder.castView(view, 2131689828, "field 'fressTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689829, "field 'forgotTv' and method 'onClick'");
+    target.forgotTv = finder.castView(view, 2131689829, "field 'forgotTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.head = null;
+    target.emailEt = null;
+    target.passwordEt = null;
+    target.loginBt = null;
+    target.dsfloginTv = null;
+    target.facebookLy = null;
+    target.twiiterLy = null;
+    target.fressTv = null;
+    target.forgotTv = null;
+  }
+}

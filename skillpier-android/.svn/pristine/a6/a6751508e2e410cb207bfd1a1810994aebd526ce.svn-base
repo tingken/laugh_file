@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.quark.skillopedia.ui.widget.AutoScrollView.BorderScrollView
+        android:id="@+id/scrol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.quark.skillopedia.ui.widget.SlideHomeShowView
+                android:id="@+id/slideshowView"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true" />
+
+            <include
+                layout="@layout/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/slideshowView"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <include layout="@layout/index_type" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1.5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:background="@color/line_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Hot recommand"
+                        android:textColor="@color/huise" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1.5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:background="@color/line_color" />
+
+                </LinearLayout>
+
+
+                <!-- <com.quark.skillopedia.ui.widget.AutoListForScrollView
+                     android:id="@+id/hottypelist"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingBottom="65dp">
+                 </com.quark.skillopedia.ui.widget.AutoListForScrollView>-->
+
+                <com.quark.skillopedia.ui.widget.AutoGridViewForScrollView
+                    android:id="@+id/gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"></com.quark.skillopedia.ui.widget.AutoGridViewForScrollView>
+
+                <ProgressBar
+                    android:id="@+id/gridloading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/loadFull"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:text="@string/load_full"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </com.quark.skillopedia.ui.widget.AutoScrollView.BorderScrollView>
+</LinearLayout>

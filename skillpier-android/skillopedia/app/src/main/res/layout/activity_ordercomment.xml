@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/main_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/qianhuise"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></View>
+
+
+    <include
+        layout="@layout/favorites_item"
+        />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/space_20"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="speciality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RatingBar
+                android:layout_marginLeft="@dimen/space_40"
+                style="@style/roomRatingBar"
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/space_10"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="environment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RatingBar
+                android:layout_marginLeft="@dimen/space_40"
+                style="@style/roomRatingBar"
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/space_10"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Attitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RatingBar
+                android:layout_marginLeft="@dimen/space_40"
+                style="@style/roomRatingBar"
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="comment for this class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:textSize="@dimen/fontsize_14sp"
+            android:id="@+id/edit_comment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/space_25"
+            android:layout_marginRight="@dimen/space_25"
+            android:layout_marginTop="@dimen/space_25"
+            android:background="@drawable/edittext_title"
+            android:gravity="left"
+            android:padding="@dimen/space_10"
+            android:maxLength="300"
+            android:textColor="@color/qianhuise"
+            android:text="" />
+
+
+
+        <Button
+
+            android:id="@+id/comment_bt"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space_45"
+            android:layout_marginLeft="@dimen/space_25"
+            android:layout_marginRight="@dimen/space_25"
+            android:background="@drawable/button2_style"
+            android:text="comment"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

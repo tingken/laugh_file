@@ -1,0 +1,44 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class ThreeLoginBindActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.ThreeLoginBindActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689740, "field 'emailEt'");
+    target.emailEt = finder.castView(view, 2131689740, "field 'emailEt'");
+    view = finder.findRequiredView(source, 2131689823, "field 'passwordEt'");
+    target.passwordEt = finder.castView(view, 2131689823, "field 'passwordEt'");
+    view = finder.findRequiredView(source, 2131689824, "field 'loginBt' and method 'onClick'");
+    target.loginBt = finder.castView(view, 2131689824, "field 'loginBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.head = null;
+    target.emailEt = null;
+    target.passwordEt = null;
+    target.loginBt = null;
+  }
+}

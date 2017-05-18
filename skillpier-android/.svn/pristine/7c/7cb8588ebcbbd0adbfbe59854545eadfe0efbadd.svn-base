@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\no_thumbnail.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\src\\main\\res\\drawable-mdpi\\no_thumbnail.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\loading_thumbnail.png",
+        "source": "D:\\ASWorkspace\\skillopedia\\youTubeAndroidAPIDemo\\src\\main\\res\\drawable-mdpi\\loading_thumbnail.png"
+    }
+]

@@ -1,0 +1,218 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.dingdan;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class FillOrderActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.dingdan.FillOrderActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689743, "field 'sign'");
+    target.sign = finder.castView(view, 2131689743, "field 'sign'");
+    view = finder.findRequiredView(source, 2131689744, "field 'rightrig'");
+    target.rightrig = finder.castView(view, 2131689744, "field 'rightrig'");
+    view = finder.findRequiredView(source, 2131689512, "field 'right'");
+    target.right = finder.castView(view, 2131689512, "field 'right'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689714, "field 'text1'");
+    target.text1 = finder.castView(view, 2131689714, "field 'text1'");
+    view = finder.findRequiredView(source, 2131689970, "field 'text3'");
+    target.text3 = finder.castView(view, 2131689970, "field 'text3'");
+    view = finder.findRequiredView(source, 2131689715, "field 'money'");
+    target.money = finder.castView(view, 2131689715, "field 'money'");
+    view = finder.findRequiredView(source, 2131689924, "field 'ratingBar'");
+    target.ratingBar = finder.castView(view, 2131689924, "field 'ratingBar'");
+    view = finder.findRequiredView(source, 2131689972, "field 'gradeTv'");
+    target.gradeTv = finder.castView(view, 2131689972, "field 'gradeTv'");
+    view = finder.findRequiredView(source, 2131690078, "field 'locationTv'");
+    target.locationTv = finder.castView(view, 2131690078, "field 'locationTv'");
+    view = finder.findRequiredView(source, 2131689973, "field 'milesTv'");
+    target.milesTv = finder.castView(view, 2131689973, "field 'milesTv'");
+    view = finder.findRequiredView(source, 2131689904, "field 'category'");
+    target.category = finder.castView(view, 2131689904, "field 'category'");
+    view = finder.findRequiredView(source, 2131689974, "field 'footballTv'");
+    target.footballTv = finder.castView(view, 2131689974, "field 'footballTv'");
+    view = finder.findRequiredView(source, 2131690079, "field 'minusTv' and method 'onc'");
+    target.minusTv = finder.castView(view, 2131690079, "field 'minusTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689623, "field 'number'");
+    target.number = finder.castView(view, 2131689623, "field 'number'");
+    view = finder.findRequiredView(source, 2131690080, "field 'addTv' and method 'onc'");
+    target.addTv = finder.castView(view, 2131690080, "field 'addTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689720, "field 'discountView'");
+    target.discountView = finder.castView(view, 2131689720, "field 'discountView'");
+    view = finder.findRequiredView(source, 2131689722, "field 'firstserverText'");
+    target.firstserverText = finder.castView(view, 2131689722, "field 'firstserverText'");
+    view = finder.findRequiredView(source, 2131689721, "field 'firstserver'");
+    target.firstserver = finder.castView(view, 2131689721, "field 'firstserver'");
+    view = finder.findRequiredView(source, 2131689724, "field 'addressview'");
+    target.addressview = finder.castView(view, 2131689724, "field 'addressview'");
+    view = finder.findRequiredView(source, 2131689723, "field 'chooseaddress' and method 'onc'");
+    target.chooseaddress = finder.castView(view, 2131689723, "field 'chooseaddress'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689725, "field 'cantravel' and method 'onc'");
+    target.cantravel = finder.castView(view, 2131689725, "field 'cantravel'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689727, "field 'trafficcost'");
+    target.trafficcost = finder.castView(view, 2131689727, "field 'trafficcost'");
+    view = finder.findRequiredView(source, 2131689726, "field 'trafficView'");
+    target.trafficView = finder.castView(view, 2131689726, "field 'trafficView'");
+    view = finder.findRequiredView(source, 2131689728, "field 'addcose'");
+    target.addcose = finder.castView(view, 2131689728, "field 'addcose'");
+    view = finder.findRequiredView(source, 2131689729, "field 'minusTv2' and method 'onc'");
+    target.minusTv2 = finder.castView(view, 2131689729, "field 'minusTv2'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689730, "field 'addperson'");
+    target.addperson = finder.castView(view, 2131689730, "field 'addperson'");
+    view = finder.findRequiredView(source, 2131689731, "field 'addTv2' and method 'onc'");
+    target.addTv2 = finder.castView(view, 2131689731, "field 'addTv2'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689733, "field 'selecttime' and method 'onc'");
+    target.selecttime = finder.castView(view, 2131689733, "field 'selecttime'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689732, "field 'sessionLy'");
+    target.sessionLy = finder.castView(view, 2131689732, "field 'sessionLy'");
+    view = finder.findRequiredView(source, 2131689734, "field 'coupontext' and method 'onc'");
+    target.coupontext = finder.castView(view, 2131689734, "field 'coupontext'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689735, "field 'message'");
+    target.message = finder.castView(view, 2131689735, "field 'message'");
+    view = finder.findRequiredView(source, 2131689736, "field 'realmoneyView'");
+    target.realmoneyView = finder.castView(view, 2131689736, "field 'realmoneyView'");
+    view = finder.findRequiredView(source, 2131689737, "field 'totalmoneyView'");
+    target.totalmoneyView = finder.castView(view, 2131689737, "field 'totalmoneyView'");
+    view = finder.findRequiredView(source, 2131689667, "field 'scheduleLy'");
+    target.scheduleLy = finder.castView(view, 2131689667, "field 'scheduleLy'");
+    view = finder.findRequiredView(source, 2131689738, "field 'tocar' and method 'tp'");
+    target.tocar = finder.castView(view, 2131689738, "field 'tocar'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tp(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689739, "field 'payTv' and method 'tp'");
+    target.payTv = finder.castView(view, 2131689739, "field 'payTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tp(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689719, "field 'discountline'");
+    target.discountline = view;
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.sign = null;
+    target.rightrig = null;
+    target.right = null;
+    target.head = null;
+    target.text1 = null;
+    target.text3 = null;
+    target.money = null;
+    target.ratingBar = null;
+    target.gradeTv = null;
+    target.locationTv = null;
+    target.milesTv = null;
+    target.category = null;
+    target.footballTv = null;
+    target.minusTv = null;
+    target.number = null;
+    target.addTv = null;
+    target.discountView = null;
+    target.firstserverText = null;
+    target.firstserver = null;
+    target.addressview = null;
+    target.chooseaddress = null;
+    target.cantravel = null;
+    target.trafficcost = null;
+    target.trafficView = null;
+    target.addcose = null;
+    target.minusTv2 = null;
+    target.addperson = null;
+    target.addTv2 = null;
+    target.selecttime = null;
+    target.sessionLy = null;
+    target.coupontext = null;
+    target.message = null;
+    target.realmoneyView = null;
+    target.totalmoneyView = null;
+    target.scheduleLy = null;
+    target.tocar = null;
+    target.payTv = null;
+    target.discountline = null;
+  }
+}

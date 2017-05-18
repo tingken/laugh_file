@@ -1,0 +1,39 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.fenlei.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class DetailsFrament$$ViewInjector<T extends com.quark.skillopedia.uiview.fenlei.fragment.DetailsFrament> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689949, "field 'sinceTv'");
+    target.sinceTv = finder.castView(view, 2131689949, "field 'sinceTv'");
+    view = finder.findRequiredView(source, 2131689950, "field 'durationTv'");
+    target.durationTv = finder.castView(view, 2131689950, "field 'durationTv'");
+    view = finder.findRequiredView(source, 2131689951, "field 'groupSTv'");
+    target.groupSTv = finder.castView(view, 2131689951, "field 'groupSTv'");
+    view = finder.findRequiredView(source, 2131689952, "field 'teacherTv'");
+    target.teacherTv = finder.castView(view, 2131689952, "field 'teacherTv'");
+    view = finder.findRequiredView(source, 2131689953, "field 'travelTv'");
+    target.travelTv = finder.castView(view, 2131689953, "field 'travelTv'");
+    view = finder.findRequiredView(source, 2131689955, "field 'travelDistanceTv'");
+    target.travelDistanceTv = finder.castView(view, 2131689955, "field 'travelDistanceTv'");
+    view = finder.findRequiredView(source, 2131689954, "field 'distanceLy'");
+    target.distanceLy = finder.castView(view, 2131689954, "field 'distanceLy'");
+    view = finder.findRequiredView(source, 2131689948, "field 'details_fragment'");
+    target.details_fragment = finder.castView(view, 2131689948, "field 'details_fragment'");
+  }
+
+  @Override public void reset(T target) {
+    target.sinceTv = null;
+    target.durationTv = null;
+    target.groupSTv = null;
+    target.teacherTv = null;
+    target.travelTv = null;
+    target.travelDistanceTv = null;
+    target.distanceLy = null;
+    target.details_fragment = null;
+  }
+}

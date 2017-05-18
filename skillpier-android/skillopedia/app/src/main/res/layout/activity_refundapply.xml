@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/danchengse"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_20">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refund"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/zitihuise"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:id="@+id/canrefundnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@color/zitihuise"
+                    android:textSize="@dimen/text_size_18" />
+
+            </LinearLayout>
+
+             <com.quark.skillopedia.ui.widget.ListViewForScrollView
+                  android:id="@+id/list"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+              </com.quark.skillopedia.ui.widget.ListViewForScrollView>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:background="@color/line"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/space_4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/luse" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/completed"
+                    android:textColor="@color/luse"
+                    android:textSize="@dimen/space_12" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/space_4"
+                    android:layout_weight="1"
+                    android:background="@color/chengse" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/pending"
+                    android:textColor="@color/chengse"
+                    android:textSize="@dimen/space_12" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/space_4"
+                    android:layout_weight="1"
+                    android:background="@color/red" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/could_be_refund"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/space_12" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/space_40"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_luse_style"
+                android:text="REFUND"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:text="@string/warning_tips" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:text="@string/choose_the_seesions_to_refund_completed_sessions"
+                    android:textColor="@color/qianhuise" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:text="@string/or_session_in_hour_is_not_allowed_to_refund"
+                    android:textColor="@color/qianhuise"
+                    android:paddingBottom="30dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

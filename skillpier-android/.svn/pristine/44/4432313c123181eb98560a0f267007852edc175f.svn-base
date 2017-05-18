@@ -1,0 +1,32 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.zhuye;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class RenameActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.zhuye.RenameActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689864, "field 'name'");
+    target.name = finder.castView(view, 2131689864, "field 'name'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689718, "field 'okBt' and method 'onClick'");
+    target.okBt = finder.castView(view, 2131689718, "field 'okBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.name = null;
+    target.left = null;
+    target.okBt = null;
+  }
+}

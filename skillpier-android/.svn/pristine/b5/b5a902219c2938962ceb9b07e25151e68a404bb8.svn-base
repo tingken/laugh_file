@@ -1,0 +1,174 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.fenlei;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class CourseDetailActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.fenlei.CourseDetailActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689660, "field 'slideshowView'");
+    target.slideshowView = finder.castView(view, 2131689660, "field 'slideshowView'");
+    view = finder.findRequiredView(source, 2131689899, "field 'iamgeIv'");
+    target.iamgeIv = finder.castView(view, 2131689899, "field 'iamgeIv'");
+    view = finder.findRequiredView(source, 2131689714, "field 'text1'");
+    target.text1 = finder.castView(view, 2131689714, "field 'text1'");
+    view = finder.findRequiredView(source, 2131689969, "field 'text2'");
+    target.text2 = finder.castView(view, 2131689969, "field 'text2'");
+    view = finder.findRequiredView(source, 2131689970, "field 'text3'");
+    target.text3 = finder.castView(view, 2131689970, "field 'text3'");
+    view = finder.findRequiredView(source, 2131689972, "field 'gradeTv'");
+    target.gradeTv = finder.castView(view, 2131689972, "field 'gradeTv'");
+    view = finder.findRequiredView(source, 2131689973, "field 'milesTv'");
+    target.milesTv = finder.castView(view, 2131689973, "field 'milesTv'");
+    view = finder.findRequiredView(source, 2131689974, "field 'footballTv'");
+    target.footballTv = finder.castView(view, 2131689974, "field 'footballTv'");
+    view = finder.findRequiredView(source, 2131689652, "field 'moneyTv'");
+    target.moneyTv = finder.castView(view, 2131689652, "field 'moneyTv'");
+    view = finder.findRequiredView(source, 2131689674, "field 'collectionIv'");
+    target.collectionIv = finder.castView(view, 2131689674, "field 'collectionIv'");
+    view = finder.findRequiredView(source, 2131689924, "field 'ratingBar'");
+    target.ratingBar = finder.castView(view, 2131689924, "field 'ratingBar'");
+    view = finder.findRequiredView(source, 2131689677, "field 'shoppingIv'");
+    target.shoppingIv = finder.castView(view, 2131689677, "field 'shoppingIv'");
+    view = finder.findRequiredView(source, 2131689676, "field 'cartLy' and method 'onClick'");
+    target.cartLy = finder.castView(view, 2131689676, "field 'cartLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689661, "field 'one' and method 'tabonClick'");
+    target.one = finder.castView(view, 2131689661, "field 'one'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tabonClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689662, "field 'two' and method 'tabonClick'");
+    target.two = finder.castView(view, 2131689662, "field 'two'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tabonClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689663, "field 'three' and method 'tabonClick'");
+    target.three = finder.castView(view, 2131689663, "field 'three'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tabonClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689664, "field 'four' and method 'tabonClick'");
+    target.four = finder.castView(view, 2131689664, "field 'four'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tabonClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689665, "field 'five' and method 'tabonClick'");
+    target.five = finder.castView(view, 2131689665, "field 'five'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tabonClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689666, "field 'boomline'");
+    target.boomline = finder.castView(view, 2131689666, "field 'boomline'");
+    view = finder.findRequiredView(source, 2131689637, "field 'horizontalScrollView'");
+    target.horizontalScrollView = finder.castView(view, 2131689637, "field 'horizontalScrollView'");
+    view = finder.findRequiredView(source, 2131689657, "field 'coordinatorlayout'");
+    target.coordinatorlayout = finder.castView(view, 2131689657, "field 'coordinatorlayout'");
+    view = finder.findRequiredView(source, 2131689640, "field 'pager'");
+    target.pager = finder.castView(view, 2131689640, "field 'pager'");
+    view = finder.findRequiredView(source, 2131689671, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689669, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689667, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689668, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689673, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.slideshowView = null;
+    target.iamgeIv = null;
+    target.text1 = null;
+    target.text2 = null;
+    target.text3 = null;
+    target.gradeTv = null;
+    target.milesTv = null;
+    target.footballTv = null;
+    target.moneyTv = null;
+    target.collectionIv = null;
+    target.ratingBar = null;
+    target.shoppingIv = null;
+    target.cartLy = null;
+    target.one = null;
+    target.two = null;
+    target.three = null;
+    target.four = null;
+    target.five = null;
+    target.boomline = null;
+    target.horizontalScrollView = null;
+    target.coordinatorlayout = null;
+    target.pager = null;
+  }
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/danhuang">
+
+
+    <include
+        layout="@layout/mai_hear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/coupon_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/provider"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/money_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25sp"
+                android:textColor="@color/chengse"/>
+
+            <TextView
+                android:id="@+id/number_tv"
+                android:text=""
+                android:textSize="@dimen/fontsize_13sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/chengse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/begin_time"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="@color/chengse"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/end_time"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/chengse"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+
+        <View
+            android:background="@drawable/dash"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Coupon details："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/coupon_rule"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

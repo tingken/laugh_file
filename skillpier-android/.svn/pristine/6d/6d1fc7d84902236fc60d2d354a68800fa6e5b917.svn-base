@@ -1,0 +1,100 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class NewcourseActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.NewcourseActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689766, "field 'newcourseOne' and method 'onClick'");
+    target.newcourseOne = finder.castView(view, 2131689766, "field 'newcourseOne'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689768, "field 'ccategory_tv' and method 'onClick'");
+    target.ccategory_tv = finder.castView(view, 2131689768, "field 'ccategory_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689771, "field 'certifications_view'");
+    target.certifications_view = finder.castView(view, 2131689771, "field 'certifications_view'");
+    view = finder.findRequiredView(source, 2131689776, "field 'vidioview'");
+    target.vidioview = finder.castView(view, 2131689776, "field 'vidioview'");
+    view = finder.findRequiredView(source, 2131689774, "field 'gridview'");
+    target.gridview = finder.castView(view, 2131689774, "field 'gridview'");
+    view = finder.findRequiredView(source, 2131689767, "field 'ctitleEt'");
+    target.ctitleEt = finder.castView(view, 2131689767, "field 'ctitleEt'");
+    view = finder.findRequiredView(source, 2131689772, "field 'overviewView'");
+    target.overviewView = finder.castView(view, 2131689772, "field 'overviewView'");
+    view = finder.findRequiredView(source, 2131689773, "field 'coursepic' and method 'co'");
+    target.coursepic = finder.castView(view, 2131689773, "field 'coursepic'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.co(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689777, "method 'onClick' and method 'next'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+          target.next(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689770, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689769, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689775, "method 'onClick'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.newcourseOne = null;
+    target.ccategory_tv = null;
+    target.certifications_view = null;
+    target.vidioview = null;
+    target.gridview = null;
+    target.ctitleEt = null;
+    target.overviewView = null;
+    target.coursepic = null;
+  }
+}

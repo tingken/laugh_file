@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_coursedetail_head" />
+
+    <com.quark.skillopedia.ui.widget.AutoScrollView.BorderScrollView
+        android:id="@+id/scrol"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_coursedetail_head2" />
+
+            <include layout="@layout/activity_coursedetail_pic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/bghuise" />
+
+            <include layout="@layout/activity_coursedetail_coursedetail" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/bghuise" />
+
+            <include layout="@layout/activity_coursedetail_tabs" />
+
+            <View
+                android:id="@+id/videosline"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/bghuise" />
+
+            <com.quark.skillopedia.ui.widget.ListViewForScrollView
+                android:id="@+id/videos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.quark.skillopedia.ui.widget.ListViewForScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/bghuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/commentCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:drawableRight="@drawable/address_right"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Reviews(0)"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/bghuise" />
+
+                <com.quark.skillopedia.ui.widget.AutoListForScrollView
+                    android:id="@+id/listComments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.quark.skillopedia.ui.widget.AutoListForScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.quark.skillopedia.ui.widget.AutoScrollView.BorderScrollView>
+
+    <include layout="@layout/activity_coursedetail_food" />
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.mainview;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class FragmentOne$$ViewInjector<T extends com.quark.skillopedia.mainview.FragmentOne> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689660, "field 'slideshowView'");
+    target.slideshowView = finder.castView(view, 2131689660, "field 'slideshowView'");
+    view = finder.findRequiredView(source, 2131690015, "field 'type1' and method 'tocatagory'");
+    target.type1 = finder.castView(view, 2131690015, "field 'type1'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tocatagory(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131690017, "field 'type11' and method 'tocatagory'");
+    target.type11 = finder.castView(view, 2131690017, "field 'type11'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tocatagory(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131690020, "field 'type22' and method 'tocatagory'");
+    target.type22 = finder.castView(view, 2131690020, "field 'type22'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tocatagory(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131690023, "field 'type2' and method 'tocatagory'");
+    target.type2 = finder.castView(view, 2131690023, "field 'type2'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.tocatagory(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131690014, "field 'typeview'");
+    target.typeview = finder.castView(view, 2131690014, "field 'typeview'");
+    view = finder.findRequiredView(source, 2131689990, "field 'lstv'");
+    target.lstv = finder.castView(view, 2131689990, "field 'lstv'");
+    view = finder.findRequiredView(source, 2131690016, "field 'type1Pic'");
+    target.type1Pic = finder.castView(view, 2131690016, "field 'type1Pic'");
+    view = finder.findRequiredView(source, 2131690018, "field 'type1Name'");
+    target.type1Name = finder.castView(view, 2131690018, "field 'type1Name'");
+    view = finder.findRequiredView(source, 2131690019, "field 'type1Des'");
+    target.type1Des = finder.castView(view, 2131690019, "field 'type1Des'");
+    view = finder.findRequiredView(source, 2131690021, "field 'type2Name'");
+    target.type2Name = finder.castView(view, 2131690021, "field 'type2Name'");
+    view = finder.findRequiredView(source, 2131690022, "field 'type2Des'");
+    target.type2Des = finder.castView(view, 2131690022, "field 'type2Des'");
+    view = finder.findRequiredView(source, 2131690024, "field 'type2Pic'");
+    target.type2Pic = finder.castView(view, 2131690024, "field 'type2Pic'");
+    view = finder.findRequiredView(source, 2131689998, "method 'msgsearch'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.msgsearch(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689997, "method 'msgsearch'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.msgsearch(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.slideshowView = null;
+    target.type1 = null;
+    target.type11 = null;
+    target.type22 = null;
+    target.type2 = null;
+    target.typeview = null;
+    target.lstv = null;
+    target.type1Pic = null;
+    target.type1Name = null;
+    target.type1Des = null;
+    target.type2Name = null;
+    target.type2Des = null;
+    target.type2Pic = null;
+  }
+}

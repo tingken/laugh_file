@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="@dimen/space_12"
+        android:layout_marginRight="@dimen/space_12"
+        >
+        <ImageView
+            android:id="@+id/ctgpic"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/example_6" />
+
+        <ImageView
+            android:id="@+id/ctgpic_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ctgtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/zidown_line"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:text=""
+                android:visibility="invisible"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_14sp" />
+            <TextView
+                android:id="@+id/ctgdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text=""
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:visibility="invisible"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_13sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

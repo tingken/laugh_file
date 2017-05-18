@@ -1,0 +1,40 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class ScheduleOrderActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.ScheduleOrderActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689622, "field 'gridview'");
+    target.gridview = finder.castView(view, 2131689622, "field 'gridview'");
+    view = finder.findRequiredView(source, 2131689641, "field 'reject' and method 'rc'");
+    target.reject = finder.castView(view, 2131689641, "field 'reject'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.rc(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689642, "field 'confirm' and method 'rc'");
+    target.confirm = finder.castView(view, 2131689642, "field 'confirm'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.rc(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.gridview = null;
+    target.reject = null;
+    target.confirm = null;
+  }
+}

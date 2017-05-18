@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tosearch"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bord_search"
+            android:drawableLeft="@drawable/search_1"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Find your personal coach or lesson"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColorHint="@color/yellow" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/message_1" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_red4"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="8dp"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

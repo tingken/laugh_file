@@ -1,0 +1,65 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class SkillopediaActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.SkillopediaActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689835, "field 'oneLy' and method 'onClick'");
+    target.oneLy = finder.castView(view, 2131689835, "field 'oneLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689837, "field 'twoLy' and method 'onClick'");
+    target.twoLy = finder.castView(view, 2131689837, "field 'twoLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689884, "field 'fressLy' and method 'onClick'");
+    target.fressLy = finder.castView(view, 2131689884, "field 'fressLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689885, "field 'fourLy' and method 'onClick'");
+    target.fourLy = finder.castView(view, 2131689885, "field 'fourLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.title = null;
+    target.oneLy = null;
+    target.twoLy = null;
+    target.fressLy = null;
+    target.fourLy = null;
+  }
+}

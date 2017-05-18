@@ -1,0 +1,30 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.adapter;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class HottypeAdapter$ViewHolder$$ViewInjector<T extends com.quark.skillopedia.adapter.HottypeAdapter.ViewHolder> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689685, "field 'type2'");
+    target.type2 = finder.castView(view, 2131689685, "field 'type2'");
+    view = finder.findRequiredView(source, 2131689689, "field 'type3'");
+    target.type3 = finder.castView(view, 2131689689, "field 'type3'");
+    view = finder.findRequiredView(source, 2131690010, "field 'type4'");
+    target.type4 = finder.castView(view, 2131690010, "field 'type4'");
+    view = finder.findRequiredView(source, 2131690012, "field 'type5'");
+    target.type5 = finder.castView(view, 2131690012, "field 'type5'");
+    view = finder.findRequiredView(source, 2131689681, "field 'type1'");
+    target.type1 = finder.castView(view, 2131689681, "field 'type1'");
+  }
+
+  @Override public void reset(T target) {
+    target.type2 = null;
+    target.type3 = null;
+    target.type4 = null;
+    target.type5 = null;
+    target.type1 = null;
+  }
+}

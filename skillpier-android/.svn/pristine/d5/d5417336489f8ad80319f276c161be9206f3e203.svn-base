@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\release\\drawable\\custom_progress_barxl.xml",
+        "source": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\src\\main\\res\\drawable\\custom_progress_barxl.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\release\\drawable\\item_selector.xml",
+        "source": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\src\\main\\res\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\release\\drawable\\custom_progress_barxl.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\src\\main\\res\\drawable\\custom_progress_barxl.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\release\\drawable\\item_selector.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\src\\main\\res\\drawable\\item_selector.xml"
+    }
+]

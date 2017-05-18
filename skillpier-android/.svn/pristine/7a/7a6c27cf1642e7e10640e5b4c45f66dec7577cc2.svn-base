@@ -1,0 +1,18 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.youhui;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class OneFragment$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.youhui.OneFragment> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131690077, "field 'xlstvCou'");
+    target.xlstvCou = finder.castView(view, 2131690077, "field 'xlstvCou'");
+  }
+
+  @Override public void reset(T target) {
+    target.xlstvCou = null;
+  }
+}

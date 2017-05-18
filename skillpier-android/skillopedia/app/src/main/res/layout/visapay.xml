@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Card Number" />
+
+    <EditText
+        android:id="@+id/cardnumber"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bord_while_huise"
+        android:gravity="center_vertical"
+        android:hint="Enter visa card number"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textSize="@dimen/fontsize_14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Expiration Date" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Security Code" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bord_while_huise"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:hint="MM"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bord_while_huise"
+                android:gravity="center"
+                android:hint="YY"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="@dimen/fontsize_14sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bord_while_huise"
+            android:gravity="center_vertical"
+            android:hint="CVV"
+            android:inputType="number"
+            android:maxLength="3"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/fontsize_14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_visapay"
+        android:text="Pay now"
+        android:textColor="@color/white" />
+
+</LinearLayout>

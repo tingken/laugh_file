@@ -1,0 +1,162 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class OrderMgDetailsActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.OrderMgDetailsActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689846, "field 'headIv'");
+    target.headIv = finder.castView(view, 2131689846, "field 'headIv'");
+    view = finder.findRequiredView(source, 2131689695, "field 'yangLy' and method 'onClick'");
+    target.yangLy = finder.castView(view, 2131689695, "field 'yangLy'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689698, "field 'priceTv'");
+    target.priceTv = finder.castView(view, 2131689698, "field 'priceTv'");
+    view = finder.findRequiredView(source, 2131689699, "field 'addpartnerTv'");
+    target.addpartnerTv = finder.castView(view, 2131689699, "field 'addpartnerTv'");
+    view = finder.findRequiredView(source, 2131689700, "field 'partnerTv'");
+    target.partnerTv = finder.castView(view, 2131689700, "field 'partnerTv'");
+    view = finder.findRequiredView(source, 2131689701, "field 'costTv'");
+    target.costTv = finder.castView(view, 2131689701, "field 'costTv'");
+    view = finder.findRequiredView(source, 2131689702, "field 'amountTv'");
+    target.amountTv = finder.castView(view, 2131689702, "field 'amountTv'");
+    view = finder.findRequiredView(source, 2131689703, "field 'discountTv'");
+    target.discountTv = finder.castView(view, 2131689703, "field 'discountTv'");
+    view = finder.findRequiredView(source, 2131689705, "field 'feeTv'");
+    target.feeTv = finder.castView(view, 2131689705, "field 'feeTv'");
+    view = finder.findRequiredView(source, 2131689704, "field 'feeLy'");
+    target.feeLy = finder.castView(view, 2131689704, "field 'feeLy'");
+    view = finder.findRequiredView(source, 2131689707, "field 'couponTv'");
+    target.couponTv = finder.castView(view, 2131689707, "field 'couponTv'");
+    view = finder.findRequiredView(source, 2131689706, "field 'couponLy'");
+    target.couponLy = finder.castView(view, 2131689706, "field 'couponLy'");
+    view = finder.findRequiredView(source, 2131689708, "field 'totalTv'");
+    target.totalTv = finder.castView(view, 2131689708, "field 'totalTv'");
+    view = finder.findRequiredView(source, 2131689711, "field 'scrolistview'");
+    target.scrolistview = finder.castView(view, 2131689711, "field 'scrolistview'");
+    view = finder.findRequiredView(source, 2131689712, "field 'idNumber'");
+    target.idNumber = finder.castView(view, 2131689712, "field 'idNumber'");
+    view = finder.findRequiredView(source, 2131689713, "field 'dateTv'");
+    target.dateTv = finder.castView(view, 2131689713, "field 'dateTv'");
+    view = finder.findRequiredView(source, 2131689714, "field 'text1'");
+    target.text1 = finder.castView(view, 2131689714, "field 'text1'");
+    view = finder.findRequiredView(source, 2131689969, "field 'text2'");
+    target.text2 = finder.castView(view, 2131689969, "field 'text2'");
+    view = finder.findRequiredView(source, 2131689970, "field 'text3'");
+    target.text3 = finder.castView(view, 2131689970, "field 'text3'");
+    view = finder.findRequiredView(source, 2131689924, "field 'ratingBar'");
+    target.ratingBar = finder.castView(view, 2131689924, "field 'ratingBar'");
+    view = finder.findRequiredView(source, 2131689972, "field 'gradeTv'");
+    target.gradeTv = finder.castView(view, 2131689972, "field 'gradeTv'");
+    view = finder.findRequiredView(source, 2131689971, "field 'text4'");
+    target.text4 = finder.castView(view, 2131689971, "field 'text4'");
+    view = finder.findRequiredView(source, 2131689973, "field 'milesTv'");
+    target.milesTv = finder.castView(view, 2131689973, "field 'milesTv'");
+    view = finder.findRequiredView(source, 2131689974, "field 'footballTv'");
+    target.footballTv = finder.castView(view, 2131689974, "field 'footballTv'");
+    view = finder.findRequiredView(source, 2131689652, "field 'moneyTv'");
+    target.moneyTv = finder.castView(view, 2131689652, "field 'moneyTv'");
+    view = finder.findRequiredView(source, 2131689627, "field 'nameTv'");
+    target.nameTv = finder.castView(view, 2131689627, "field 'nameTv'");
+    view = finder.findRequiredView(source, 2131689850, "field 'cancelBt' and method 'onClick'");
+    target.cancelBt = finder.castView(view, 2131689850, "field 'cancelBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689851, "field 'confirmBt' and method 'onClick'");
+    target.confirmBt = finder.castView(view, 2131689851, "field 'confirmBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689852, "field 'finishBt' and method 'onClick'");
+    target.finishBt = finder.castView(view, 2131689852, "field 'finishBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689848, "field 'teachingBt' and method 'onClick'");
+    target.teachingBt = finder.castView(view, 2131689848, "field 'teachingBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689849, "field 'getBt' and method 'onClick'");
+    target.getBt = finder.castView(view, 2131689849, "field 'getBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689847, "field 'msgTv'");
+    target.msgTv = finder.castView(view, 2131689847, "field 'msgTv'");
+  }
+
+  @Override public void reset(T target) {
+    target.left = null;
+    target.headIv = null;
+    target.yangLy = null;
+    target.priceTv = null;
+    target.addpartnerTv = null;
+    target.partnerTv = null;
+    target.costTv = null;
+    target.amountTv = null;
+    target.discountTv = null;
+    target.feeTv = null;
+    target.feeLy = null;
+    target.couponTv = null;
+    target.couponLy = null;
+    target.totalTv = null;
+    target.scrolistview = null;
+    target.idNumber = null;
+    target.dateTv = null;
+    target.text1 = null;
+    target.text2 = null;
+    target.text3 = null;
+    target.ratingBar = null;
+    target.gradeTv = null;
+    target.text4 = null;
+    target.milesTv = null;
+    target.footballTv = null;
+    target.moneyTv = null;
+    target.nameTv = null;
+    target.cancelBt = null;
+    target.confirmBt = null;
+    target.finishBt = null;
+    target.teachingBt = null;
+    target.getBt = null;
+    target.msgTv = null;
+  }
+}

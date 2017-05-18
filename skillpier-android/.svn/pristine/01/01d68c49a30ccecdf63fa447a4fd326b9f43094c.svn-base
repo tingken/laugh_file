@@ -1,0 +1,120 @@
+// Generated code from Butter Knife. Do not modify!
+package com.quark.skillopedia.uiview.zhanghu.jiaolian;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class AuthenActivity$$ViewInjector<T extends com.quark.skillopedia.uiview.zhanghu.jiaolian.AuthenActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131689672, "field 'leftImg'");
+    target.leftImg = finder.castView(view, 2131689672, "field 'leftImg'");
+    view = finder.findRequiredView(source, 2131689511, "field 'left'");
+    target.left = finder.castView(view, 2131689511, "field 'left'");
+    view = finder.findRequiredView(source, 2131689569, "field 'title'");
+    target.title = finder.castView(view, 2131689569, "field 'title'");
+    view = finder.findRequiredView(source, 2131689743, "field 'sign'");
+    target.sign = finder.castView(view, 2131689743, "field 'sign'");
+    view = finder.findRequiredView(source, 2131689744, "field 'rightrig'");
+    target.rightrig = finder.castView(view, 2131689744, "field 'rightrig'");
+    view = finder.findRequiredView(source, 2131689512, "field 'right'");
+    target.right = finder.castView(view, 2131689512, "field 'right'");
+    view = finder.findRequiredView(source, 2131689670, "field 'head'");
+    target.head = finder.castView(view, 2131689670, "field 'head'");
+    view = finder.findRequiredView(source, 2131689611, "field 'cname'");
+    target.cname = finder.castView(view, 2131689611, "field 'cname'");
+    view = finder.findRequiredView(source, 2131689612, "field 'csex' and method 'onClick'");
+    target.csex = finder.castView(view, 2131689612, "field 'csex'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689613, "field 'cborthday' and method 'onClick'");
+    target.cborthday = finder.castView(view, 2131689613, "field 'cborthday'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689614, "field 'cphone'");
+    target.cphone = finder.castView(view, 2131689614, "field 'cphone'");
+    view = finder.findRequiredView(source, 2131689617, "field 'pic1' and method 'onClick'");
+    target.pic1 = finder.castView(view, 2131689617, "field 'pic1'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689618, "field 'pic2' and method 'onClick'");
+    target.pic2 = finder.castView(view, 2131689618, "field 'pic2'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689619, "field 'authenBt', method 'abt', and method 'onClick'");
+    target.authenBt = finder.castView(view, 2131689619, "field 'authenBt'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.abt(p0);
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689615, "field 'categoryTv' and method 'onClick'");
+    target.categoryTv = finder.castView(view, 2131689615, "field 'categoryTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131689616, "field 'experienceTv' and method 'onClick'");
+    target.experienceTv = finder.castView(view, 2131689616, "field 'experienceTv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.onClick(p0);
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.leftImg = null;
+    target.left = null;
+    target.title = null;
+    target.sign = null;
+    target.rightrig = null;
+    target.right = null;
+    target.head = null;
+    target.cname = null;
+    target.csex = null;
+    target.cborthday = null;
+    target.cphone = null;
+    target.pic1 = null;
+    target.pic2 = null;
+    target.authenBt = null;
+    target.categoryTv = null;
+    target.experienceTv = null;
+  }
+}

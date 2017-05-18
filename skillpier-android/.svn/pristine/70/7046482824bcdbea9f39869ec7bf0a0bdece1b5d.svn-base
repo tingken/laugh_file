@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.joooonho.SelectableRoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iamge_iv"
+            android:src="@drawable/example_7"
+            android:scaleType="centerCrop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:sriv_left_top_corner_radius="5dip"
+            app:sriv_right_top_corner_radius="5dip"
+            app:sriv_left_bottom_corner_radius="5dip"
+            app:sriv_right_bottom_corner_radius="5dip"
+            app:sriv_border_width="1dip"
+            app:sriv_border_color="@color/picborder"
+            app:sriv_oval="false" />
+
+        <!--<ImageView
+            android:id="@+id/iamge_iv"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
+            android:background="@drawable/example_7" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/fontsize_13sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/fontsize_13sp"
+                android:textColor="@color/qianhuise" />
+
+            <LinearLayout
+                android:gravity="center|left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="@style/roomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:isIndicator="true"
+                    android:numStars="5" />
+
+                <TextView
+                    android:id="@+id/grade_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                    android:textSize="@dimen/fontsize_13sp"
+                    android:textColor="@color/qianhuise" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:text=""
+                    android:textColor="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_13sp"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/space_35"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/miles_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text=""
+                    android:textSize="@dimen/fontsize_13sp"
+                    android:textColor="@color/qianhuise" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/category" />
+
+                <TextView
+                    android:id="@+id/football_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text=""
+                    android:textSize="@dimen/fontsize_13sp"
+                    android:textColor="@color/qianhuise" />
+                <TextView
+                    android:id="@+id/money_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:gravity="right"
+                    android:paddingRight="@dimen/space_10"
+                    android:textColor="@color/chengse"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hengxian"
+        android:layout_marginTop="@dimen/space_5"
+        android:background="@color/qianhuise"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="@dimen/space_0.5"/>
+
+</LinearLayout>

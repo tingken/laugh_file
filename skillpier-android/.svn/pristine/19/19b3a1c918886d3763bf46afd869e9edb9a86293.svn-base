@@ -1,0 +1,231 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Skillopedia</string>
+    <string name="tip_double_click_exit">再次点击退出</string>
+    <!--facebook id-->
+    <string name="facebook_app_id">217442991983314</string>
+    <!--facebook id-->
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">The drop-down refresh</string>
+    <string name="release_to_refresh">Release the refresh immediately</string>
+    <string name="refreshing">Is refreshing...</string>
+    <string name="refresh_succeed">Refresh the success</string>
+    <string name="refresh_fail">Refresh the failure</string>
+    <string name="pullup_to_load">The load more</string>
+    <string name="release_to_load">Release immediately load</string>
+    <string name="loading">In the load…</string>
+    <string name="load_succeed">Load the success</string>
+    <string name="load_fail">Load failed</string>
+    <string name="lastUpdateTime">Recent updates：%s</string>
+    <string name="no_data">Temporarily no data</string>
+    <string name="more">In the load</string>
+    <string name="load_more">More</string>
+    <string name="load_ing">In the load···</string>
+    <string name="load_full">All records loaded</string>
+    <string name="load_empty">Temporarily no data</string>
+    <string name="load_error">Load the data error</string>
+    <string name="new_data_toast_message">There are %d update</string>
+    <string name="new_data_toast_none">No new update</string>
+
+    <string-array name="pager_name">
+        <item>Published</item>
+        <item>Draft</item>
+    </string-array>
+
+    <string-array name="course_pager_name">
+        <item>Details</item>
+        <item>About me</item>
+        <item>Reviews</item>
+        <item>Certifications</item>
+        <item>Vedio</item>
+    </string-array>
+
+    <string-array name="order_pager_name">
+        <item>All</item>
+        <item>Unpaid</item>
+        <item>Paid</item>
+        <item>Finished</item>
+    </string-array>
+
+    <string-array name="homepager_name">
+        <item>My Course</item>
+        <item>Comments</item>
+        <item>My Steps</item>
+    </string-array>
+
+    <string-array name="homepager_name_user">
+        <item>Comments</item>
+        <item>My Steps</item>
+    </string-array>
+    <!--login-->
+    <string name="tip_no_email">Please enter your email/account</string>
+    <string name="tip_no_password">Please enter your password</string>
+    <string name="tip_no_name">Please enter your name</string>
+
+    <string-array name="spinner_one">
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Swimming</item>
+        <item>None</item>
+    </string-array>
+
+    <!--个人中心-->
+
+    <!--NoSkillopediaActivity-->
+    <string name="one">sorry，</string>
+    <string name="two">You have not yet become SKILLOPEDIA!</string>
+    <string name="three">We are sorry to inform you that your application is not approved</string>
+    <string name="four">Customer Service：400-300-300</string>
+    <string name="five">Reapply</string>
+    <string name="Have_to_pay">Paid</string>
+    <string name="Has_been_completed">Finished</string>
+    <string name="NEW_COURSE">New course</string>
+    <string name="COURSE_MANAGEMENT">Course management</string>
+    <string name="ORDER_MANAGENENT">Order management</string>
+    <string name="SCHEDULE">Schedule</string>
+
+    <!--个人中心 end-->
+    <string name="Did_not_write">Did not write</string>
+    <string name="Not_release_course">There is no published course</string>
+    <string name="yang">YANG</string>
+    <string name="you_may">You may upload up to 8 picture in experience</string>
+    <string name="say_something">Say something you feel,you learn</string>
+    <string name="Reset_link">Reset link will be sent to your email account</string>
+    <string name="use_third">Use third party account to log in</string>
+    <string name="expreience_title">Expreience title</string>
+    <string name="what_about">What about yout experience</string>
+    <string name="warning_tips">Warning tips</string>
+    <string name="facebook">Facebook</string>
+    <string name="twiiter">Twiiter</string>
+    <string name="Free_Sign_up">Free Sign up</string>
+    <string name="Forgot_password">Forgot password?</string>
+    <!--newcourseActivity-->
+    <string name="Course_Title">Course Title:</string>
+    <string name="Category">Category:</string>
+    <string name="Certifications">Certifications:</string>
+    <string name="Overview">About myself:</string>
+    <string name="Vedio">Vedio:</string>
+    <string name="Session_Length">Session Length:</string>
+    <string name="Session_Rate">Session Rate ($):</string>
+    <string name="Teaching_age">Teaching age:</string>
+    <string name="Teaching_since">Teaching since</string>
+
+    <string name="course_no_name">Please enter name</string>
+    <string name="course_no_time">Please choose time</string>
+    <string name="course_no_institue">Please enter institue</string>
+    <!--提交判断-->
+    <string name="course_no_title">Please enter title</string>
+
+    <!--authenActivity-->
+    <string name="name">Name:</string>
+    <string name="Gender">Gender:</string>
+    <string name="Date_of_Birth">Date of Birth:</string>
+    <string name="Phone_Number">Phone Number:</string>
+    <string name="Government_ID">Government ID:</string>
+
+    <!--certificationsActivity-->
+    <string name="certification_name">Certification name:</string>
+    <string name="effective_time">Award time:</string>
+    <string name="institue">Institue:</string>
+    <string name="ADD">ADD</string>
+    <string name="certification_title">Certification title, Award time and laureate should be in</string>
+    <string name="the_picture">The picture</string>
+
+    <!--refundapplyActiity-->
+    <string name="Refund">Refund</string>
+    <string name="Sessons_could_be_refund">2 Sessons could be refund</string>
+    <string name="Session1">Session1:</string>
+    <string name="Session2">Session2:</string>
+    <string name="Session3">Session3:</string>
+    <string name="Session4">Session4:</string>
+    <string name="Session5">Session5:</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+    <string name="could_be_refund">Could be refund</string>
+    <string name="choose_the_seesions_to_refund_completed_sessions">Choose the seesions to refund,Completed sessions,</string>
+    <string name="or_session_in_hour_is_not_allowed_to_refund">Or session in 6 hour is not allowed to refund.</string>
+
+    <!--button -->
+    <string name="finish">FINISH</string>
+    <string name="next">NEXT</string>
+    <string name="confirm">Confirm</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="get_it">Get it</string>
+    <string name="expired_coupon">Expired Coupon</string>
+    <string name="coupon">Coupons</string>
+    <string name="send_email">Send Email Find Password</string>
+    <string name="publish">Finish</string>
+    <string name="save_to_draft">Save To Draft</string>
+
+    <!--设置-->
+    <string name="Version_checking">Current Version</string>
+    <string name="Clear_cache">Clearing Cache</string>
+    <string name="Contact_us">Contact Us</string>
+    <string name="Visit_the_website">访问官网</string>
+
+    <!--EditText hint-->
+    <string name="user_name">First name,last name</string>
+    <string name="email">Please enter your account/email</string>
+    <string name="password">8-16 digit password</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_email_account">Enter your eamil/account</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="Enter_number">Enter your coupon number</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet,Consecteter</string>
+
+    <!--parmentActivity-->
+    <string name="you_need_to_pay">You need to pay:</string>
+    <string name="Total">Total:</string>
+    <string name="Original_price">Original price:</string>
+    <string name="Choose_your_payment_method">Choose your payment method</string>
+    <string name="weixin_payment">支付宝支付</string>
+    <string name="Pay_with_visa">Pay with credit card</string>
+    <string name="Pay_with_paypal">Pay with paypal</string>
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="nohistory">No history records! Enter coach name or category..</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!--极光推送-->
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
+    <!--极光推送end-->
+
+    <string name="service_tip">This fee is used for maintain coach service,you won\'t be charged in the future when you purchase the same course with this coach.</string>
+
+    <string name="callPhone">Dial telephone</string>
+    <string name="sendEmail">Send email</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="selectalbum">Select from album</string>
+    <string name="takepic">Take a picture</string>
+
+    <string name="deleteStr">Delete</string>
+    <string name="commentStr">Comment</string>
+    <string name="buyagainStr">Buy again</string>
+    <string name="refundStr">Refund</string>
+    <string name="bookingStr">Booking</string>
+    <string name="paynow">Pay now</string>
+    <string name="confirmStr">Confirm</string>
+    <string name="finishStr">Finish</string>
+    <string name="cancelStr">Cancel</string>
+
+    <string name="exitTip">Exit tips</string>
+    <string name="exitTip2">Are you sure you want to quit?</string>
+
+</resources>

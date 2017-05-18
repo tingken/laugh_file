@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/qianhuise" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/order_fill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:id="@+id/discountline"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:layout_marginTop="@dimen/space_10"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:id="@+id/discountView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/firstserver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/firstserver_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/space_15"
+                    android:paddingLeft="@dimen/space_15"
+                    android:paddingTop="@dimen/space_15"
+                    android:text="Service Cost: "
+                    android:textColor="@color/huise" />
+
+                <TextView
+                    android:id="@+id/firstserver2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/space_15"
+                    android:paddingTop="@dimen/space_15"
+                    android:text=""
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/space_10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="Teaching Location" />
+
+                    <ImageView
+                        android:id="@+id/show_address_tip"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/qa" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/chooseaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/addressview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center_vertical"
+                            android:hint="Enter the location of your lesson"
+                            android:minHeight="40dp"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/qianhuise"
+                            android:textSize="@dimen/text_size_13" />
+                    </LinearLayout>
+
+                    <!--<TextView
+                        android:id="@+id/show_address_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="@dimen/space_10"
+                        android:text="\?" />-->
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/address_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Specific address will be shown after check out"
+                    android:textColor="@color/qianhuise"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/cantrivial_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/qianhuise" />
+
+                <LinearLayout
+                    android:id="@+id/cantrivial_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:gravity="center|left">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Travel Option"
+                                android:textColor="@color/qianhuise"
+                                android:textSize="@dimen/space_13" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/cantravel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="@dimen/space_30"
+                            android:layout_marginTop="@dimen/space_5"
+                            android:src="@drawable/off" />
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_0.5"
+                        android:background="@color/qianhuise" />
+
+                    <LinearLayout
+                        android:id="@+id/trafficView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingBottom="@dimen/space_15"
+                                android:paddingTop="@dimen/space_15"
+                                android:text="Travel Fee:" />
+
+                            <TextView
+                                android:id="@+id/trafficcost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/space_15"
+                                android:text=""
+                                android:textColor="@color/qianhuise" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/space_0.5"
+                            android:background="@color/qianhuise" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:padding="@dimen/space_10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Additional Partner:" />
+
+                    <TextView
+                        android:id="@+id/addcose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="each for $10,up to 4"
+                        android:textColor="@color/qianhuise"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/minus_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/order_1"
+                        android:gravity="center"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/addperson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cart_8"
+                        android:gravity="center"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/add_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/order_2"
+                        android:gravity="center"
+                        android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_10"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Traffic cost:" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$3"
+                    android:textColor="@color/qianhuise" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:id="@+id/session_ly"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/space_10"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Session schedule:" />
+
+                <TextView
+                    android:id="@+id/selecttime"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/forward"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="book your time now or later"
+                    android:textColor="@color/qianhuise"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="@dimen/space_10"
+                android:gravity="center|left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coupon:" />
+
+                <TextView
+                    android:id="@+id/coupontext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/forward"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:text="None"
+                    android:textColor="@color/qianhuise" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_15"
+                android:minHeight="45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="message:" />
+
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="Leave message for coach."
+                    android:maxLength="400"
+                    android:paddingBottom="@dimen/space_15"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_15"
+                android:minHeight="45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="Coustomer Name:" />
+
+                <EditText
+                    android:id="@+id/coustomerName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="coustomer name"
+                    android:maxLength="400"
+                    android:paddingBottom="@dimen/space_15"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/qianhuise" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_15"
+                android:minHeight="45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="Coustomer Cellphone:" />
+
+                <EditText
+                    android:id="@+id/coustomerCellphone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:inputType="number"
+                    android:hint="coustomer cellphone"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:paddingBottom="@dimen/space_15"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_0.5"
+                android:background="@color/qianhuise" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_20"
+                android:paddingRight="@dimen/space_20">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/price_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Course price"
+                        android:textColor="@color/qianhuise"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                    <TextView
+                        android:id="@+id/price_ago"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/space_2"
+                        android:gravity="right"
+                        android:text=""
+                        android:textSize="@dimen/fontsize_12sp" />
+
+                    <TextView
+                        android:id="@+id/price_after"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/service_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service_tip"
+                    android:textColor="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_13sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/partner_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 additional partner * 1"
+                        android:textColor="@color/qianhuise"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                    <TextView
+                        android:id="@+id/partner_ago"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/space_2"
+                        android:gravity="right"
+                        android:text=""
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                    <TextView
+                        android:id="@+id/partner_after"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/service_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/one_fee_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="One times service fee "
+                        android:textColor="@color/qianhuise"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                    <ImageView
+                        android:id="@+id/service_tippic"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/qa" />
+
+                    <TextView
+                        android:id="@+id/fee_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coupon_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/coupon_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coupon Applied "
+                        android:textColor="@color/qianhuise"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+
+                    <TextView
+                        android:id="@+id/coupon_tv2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/travel_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/travel_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Travel Service fee "
+                        android:textColor="@color/qianhuise"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                    <TextView
+                        android:id="@+id/travel_tv2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_14sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginBottom="@dimen/space_8"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:background="@color/qianhuise" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_20"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Total price"
+                        android:textColor="@color/chengse"
+                        android:textSize="@dimen/fontsize_16sp" />
+
+                    <TextView
+                        android:id="@+id/total_price_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fontsize_16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tocar"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#FFB342"
+            android:gravity="center"
+            android:text="Add To Cart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/pay_tv"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#FC5B15"
+            android:gravity="center"
+            android:text="Pay Now"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+</LinearLayout>

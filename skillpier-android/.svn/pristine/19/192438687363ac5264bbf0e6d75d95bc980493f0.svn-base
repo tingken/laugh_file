@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xlistview_header.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\listview_item.xml",
+        "source": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\listview_item.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xlistview_footer.xml",
+        "source": "D:\\ASWorkspace\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidStudioApp\\YUNDONG\\skillopedia\\swiperefreshloadlistview\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    }
+]
