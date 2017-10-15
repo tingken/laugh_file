@@ -19,7 +19,12 @@
                     <div class="coupon-top">
                         <span class="btn" ng-click="remove(coupon,$event)">Delete</span>
                         <h2>offered by {{coupon.provider}}</h2>
+                        <div ng-if="coupon.coupon_type != 3">
                             <p><strong>{{coupon.total_coupon_money|currency:"$"}}</strong>&nbsp;&nbsp;x{{coupon.coupon_num}}</p>
+                        </div>
+                        <div ng-if="coupon.coupon_type == 3">
+                            <p><strong>{{coupon.discount*100}}% Off</strong>&nbsp;&nbsp;x{{coupon.coupon_num}}</p>
+                        </div>
                         <div class="p2">Valid from {{coupon.begin_time}} to {{coupon.end_time}}</div>
                     </div>
                     <div class="coupon-below clearfix">

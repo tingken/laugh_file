@@ -1,6 +1,6 @@
-<myresource cs-resource="{'account_css':'/skillopedia/lib/css/account.css','media_css':'/skillopedia/lib/css/media.css'}"></myresource>
+<myresource cs-resource="{'account_css':'/skillopedia//skillopedia/lib/css/account.css','media_css':'/skillopedia//skillopedia/lib/css/media.css'}"></myresource>
 <!-- header -->
-<div ng-include="'/skillopedia/templates/header.html'"></div>
+<div ng-include="'/skillopedia//skillopedia/templates/header.html'"></div>
 <div class="wrap">
     <div class="section sm detail-section">
         <!-- left -->
@@ -21,9 +21,9 @@
                         </div>
                         <div>
                             <i class="fa fa-bars" aria-hidden="true"></i>
-                            <span>{{course.category_02_name}}</span>
+                            <span>{{course.catetory_name}}</span>
                         </div>
-                        <div class="text-primary" ng-click="open_map(course,$event)">
+                        <div class="text-primary" ng-click="open_map(course,$event)" ng-if="course.type != 2">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <span>{{course.area}}</span>
                         </div>
@@ -41,11 +41,11 @@
                     <div class="calendar-header" style="background-color: #ffb342;color:white" ng-if="course.is_stop_course == '1'">
                         Attention! This course is suspend.
                     </div>
-                    <div class="calendar-header" ng-if="course.is_stop_course != '1'">
+                    <div class="calendar-header" ng-if="course.is_stop_course != '1' && course.type == 0">
                         Select and book your preferred time.
                     </div>
-                    <calendar calendar="calendar" class="calendar-left" ng-show="course.is_stop_course != 1"></calendar>
-                    <div class="calendar-right" ng-if="course.is_stop_course != 1">
+                    <calendar calendar="calendar" class="calendar-left" ng-show="course.is_stop_course != 1 && course.type == 0"></calendar>
+                    <div class="calendar-right" ng-if="course.is_stop_course != 1 && course.type == 0">
                         <div class="calendar-result">
                             <div class="calendar-title text-center">Schedule</div>
                             <div class="result-item" ng-click="calendar.remove(select)" ng-repeat="select in calendar.selected">
@@ -69,12 +69,52 @@
                     </div>
                 </div>
             </div>
+            <form class="payment-step-1" name="billingForm">
+                <div class="step-title">Billing address</div>
+                <div class="clearfix">
+                    <div class="visa-input">
+                        <div class="visa-label">First Name<b class="text-danger">*</b></div>
+                        <input type="text" placeholder="Your First Name" name="first_name" ng-model="input.first_name" required>
+                    </div>
+                    <div class="visa-input">
+                        <div class="visa-label">Last Name<b class="text-danger">*</b></div>
+                        <input type="text" placeholder="Your Last Name" name="last_name" ng-model="input.last_name" required>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="visa-input">
+                        <div class="visa-label">Street <b class="text-danger">*</b></div>
+                        <input type="text" placeholder="Street" name="street" ng-model="input.street" required>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="visa-input">
+                        <div class="visa-label">City/Town <b class="text-danger">*</b></div>
+                        <input type="text" placeholder="City" name="city" ng-model="input.city" required>
+                    </div>
+                    <div class="visa-input">
+                        <div class="visa-label">State <b class="text-danger">*</b></div>
+                        <!-- <input type="text" placeholder="State" name="state" ng-model="input.state" required> -->
+                        <select name="state" id="state" ng-model="input.state" ng-options="state.name as state.name for state in states"></select>
+                    </div>
+                    <div class="visa-input">
+                        <div class="visa-label">Zip Code <b class="text-danger">*</b></div>
+                        <input type="number" placeholder="Zip Code" name="zipcode" ng-model="input.zipcode" required>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="visa-input">
+                        <div class="visa-label">Phone Number <b class="text-danger">*</b><span class="text-danger" ng-if="visaForm.phone.$dirty && visaForm.phone.$invalid">eg: xxx-xxx-xxxx</span> </div>
+                        <input type="text" placeholder="Phone" name="phone" mark ng-model="input.phone" required>
+                    </div>
+                </div>
+            </form>
             <div class="section sm">
                 <div class="wrap bg-white">
                     <a style="font-size:20px;" class="hover" ng-click="go('contact')">Questions? Ask us</a>
                 </div>
             </div>
-            <div class="section sm">
+            <div class="section sm" ng-if="course.type != 2">
                 <div class="wrap bg-white">
                     <span style="font-size:20px;">Teaching Location</span> <small style="color:#969696">Specific location will be made available after payment.</small>
                 </div>
@@ -88,16 +128,22 @@
                 <div class="settlement-price-group">
                     <div class="total-price">
                         <span class="text-primary">Total price</span>
-                        <div class="pull-right">
+                        <div class="pull-right" ng-if="course.type == 0">
                             {{input.discount_total_price|currency:"$"}}
+                        </div>
+                        <div class="pull-right" ng-if="course.type != 0">
+                            {{input.discount_total_price}} credit points
                         </div>
                     </div>
                     <p class="line" style="background:#dadada"></p>
                     <div>
                         <span>Course price * {{input.amount}}</span>
-                        <div class="pull-right">
+                        <div class="pull-right" ng-if="course.type == 0">
                             <b ng-class="{'underline':input.discount_total_course_price>0&&input.discount_total_course_price!=input.total_course_price}">{{input.total_course_price|currency:"$"}}</b>
                             <b ng-if="input.discount_total_course_price>0&&input.discount_total_course_price!=input.total_course_price">{{input.discount_total_course_price|currency:"$"}}</b>
+                        </div>
+                        <div class="pull-right" ng-if="course.type != 0">
+                            <b ng-class="{'underline':input.discount_total_course_price>0&&input.discount_total_course_price!=input.total_course_price}">{{input.total_course_price}} credit points</b>
                         </div>
                     </div>
                     <div ng-if="input.total_traffic_cost>0" style="margin-top:8px">
@@ -113,7 +159,7 @@
                             <b>{{input.total_service_fee|currency:"$"}}</b>
                         </div>
                     </div>
-                    <div style="margin-top:8px">
+                    <div style="margin-top:8px" ng-if="course.type == 0">
                         <span> {{input.partner}} additional partner * {{input.amount}}</span>
                         <div class="pull-right">
                             <b ng-class="{'underline':input.discount_total_partner_fee>0&&input.discount_total_partner_fee!=input.total_partner_fee}">{{input.total_partner_fee|currency:"$"}}</b>
@@ -188,13 +234,25 @@
                     </div>
                     <div class="line"></div>
                 </div> -->
-                <p class="clearfix  settlement-line">
+                <p class="clearfix  settlement-line" ng-if="course.type == 0">
                     <span class="col-xs-4" style="padding-top:6px">
                         Coupons:
                     </span>
                     <span class="col-xs-8">
                         <dribehance-select options="input.coupons" ng-if="is_signin()"></dribehance-select>
                         <span class="pull-right hover text-success" ng-click="signin()" ng-if="!is_signin()" style="padding-top:6px">Sign in to use Cupons</span>
+                    </span>
+                </p>
+                <p class="clearfix  settlement-line" ng-if="course.type == 0 && has_available_credits()">
+                    <span class="col-xs-4" style="padding-top:6px">
+                        Credit:
+                    </span>
+                    <span class="col-xs-8">
+                        <select ng-change="use_credits(x)" ng-model="x">
+                        <option value="1">make use of {{availble_credit}} credits to deduct</option>
+                        <option value="0">do not use the credits</option>
+                        </select>
+                        <span class="pull-right hover text-success" ng-click="signin()" ng-if="!is_signin()" style="padding-top:6px">Sign in to use Credit</span>
                     </span>
                 </p>
 
@@ -214,7 +272,7 @@
 
             <p class="settlement-line">
 
-                <form ng-submit="get_coupon()" name="couponForm" class="coupon-form">
+                <form ng-submit="get_coupon()" name="couponForm" class="coupon-form" ng-if="course.type == 0">
                     <input type="text" class="form-control col-xs-5" ng-model="input.coupon_id" placeholder="Enter coupon codes">
                     <button type="submit" class=" btn-second col-xs-5">Apply</button>
                 </form>
@@ -223,9 +281,7 @@
           <br>
        
             <div class="clearfix row text-center" ng-if="course.is_stop_course != 1 && course.status == 1">
-                <a class="col-xs-6 wrap bg-primary hover text-white" ng-click="fillinorder('1')" style="text-indent:30px;"><img ng-src="/skillopedia/images/cart.png" alt="" err-src="/skillopedia/images/example_7.png" style="position:absolute;left:15px;top:8px;width:30px">Add
-                    to cart</a>
-                <a class="col-xs-6 wrap bg-danger hover text-white" ng-click="fillinorder('11')">Pay now</a>
+                <button type="submit" class="btn btn-primary" ng-click="fillinorder('23')" ng-disabled="billingForm.$invalid">Commit</button>
             </div>
             <div class="clearfix row text-center" ng-if="course.status != 1">
                 The course is out date
@@ -242,8 +298,8 @@
 </div>
 <!-- signin -->
 <div id="location-popup" class="popup location-popup mfp-hide">
-    <div ng-include="'/skillopedia/templates/location.html'"></div>
+    <div ng-include="'/skillopedia//skillopedia/templates/location.html'"></div>
 </div>
 <!-- footer -->
-<div ng-include="'/skillopedia/templates/footer.html'"></div>
+<div ng-include="'/skillopedia//skillopedia/templates/footer.html'"></div>
 <div class="animate-dot"></div>

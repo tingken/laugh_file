@@ -5,9 +5,10 @@
     </div> -->
     <div class="calendar-day" ng-show="calendar.mode != 'confirm'">
         <datepicker date-format="MMM dd, yyyy" date-min-limit="{{nowaday}}">
-        <input type="text" name="day" date-format="MMM dd, yyyy" ng-model="calendar.day" class="full-width" readonly/>
-    <i class="fa fa-angle-right pull-right"></i>
-    </datepicker>
+            <input type="text" name="day" date-format="MMM dd, yyyy" ng-model="calendar.day" class="full-width" readonly/>
+            <i class="fa fa-angle-right pull-right"></i>
+        </datepicker>
+        <p ng-if="calendar.notice != ''">{{calendar.notice}}</p>
     </div>
     <div class="calendar-times">
         <div class="calendar-time state_{{time.schedule_state}}" ng-class="{'active':time.active}" ng-repeat="time in calendar.times track by $index" ng-click="select(time,$index)">

@@ -6,14 +6,14 @@
         <ul class="amazingslider-slides" style="display:none;">
             <li ng-repeat="photo in galleryImage" on-repeat-done><img ng-src="{{staticImageUrl + photo.image_01}}" />
             </li>
-            <li ng-repeat="video in galleryVideo" on-repeat-done><img src="/skillopedia/images/video_bg.png" />
+            <li ng-repeat="video in galleryVideo" on-repeat-done><img ng-src={{get_thumb(video.vedio_url)}} />
                 <video preload="none" ng-src="{{get_video(video.vedio_url)}}"></video>
             </li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none;">
             <li ng-repeat="photo in galleryImage"><img ng-src="{{staticImageUrl + photo.image_01}}" />
             </li>
-            <li ng-repeat="video in galleryVideo"><img src="/skillopedia/images/video_bg.png" />
+            <li ng-repeat="video in galleryVideo"><img ng-src="{{get_thumb(video.vedio_url)}}" />
             </li>
         </ul>
     </div>
